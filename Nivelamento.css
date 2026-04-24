@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#mobile{
+    display: none;
+}
+#alinmt-margin-niveis{
+    max-width: 100%;
+    margin: auto;
+}
+#confg-h1-nivelamento{
+    color: #1B467D;
+    font-size: 64px;
+}
+#confg-paragf-nivelamento{
+    font-weight: 600;
+    font-size: 32px;
+}
