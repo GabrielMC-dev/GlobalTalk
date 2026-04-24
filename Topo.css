@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
     padding: 0;
     margin: 0;
@@ -33,12 +35,14 @@ header{
     font-family: 'Instrument Sans', sans-serif;
     color: #1B467D;
     font-weight: 600;
-  
+    
 }
 .Topo-color{
     height: 630px;
     background: linear-gradient(to bottom, #ffffff 0%, #E1EEFA 54%, #A0CBF2 100%);
-}@charset "UTF-8";
+}
+
+
 
 @media screen and (min-width: 360px) and (max-width: 768px) {
     * {
@@ -47,36 +51,47 @@ header{
         box-sizing: border-box;
         font-family: 'Instrument Sans', sans-serif;
     }
-
-    header {
+    
+    section#desktop {
         display: none;
     }
 
+    h1.azulh1 {
+        color: #1B467D;
+        font-size: 36px;
+        margin-bottom: 4px;
+    }
+
+    p.ps {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
     header.headercont {
         box-shadow: 0px 3px 2px darkgray;
         padding: 0 5%;
     }
-
+    
     .headercont {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-
+    
     header.headercont > img {
         width: 150px
     }
-
+    
     header.headercont > span.material-symbols-outlined {
         font-size: 44px;
     }
-
+    
     nav {
         margin-top: 5px;
-        background-color: rgb(243, 243, 243);
-        display: flex;
-        flex-direction: column;
         display: none;
+        flex-direction: column;
+        z-index: 1;
     }
 
     nav a {
@@ -84,7 +99,7 @@ header{
         text-decoration: none;
         color: #1B467D;
         font-size: 24px;
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid darkgray;
         text-align: center;
         align-content: center;
         height: 36px;
@@ -95,10 +110,67 @@ header{
         border-bottom: 0;
     }
 
-    #sec1 {
+    section#sec1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-top: 4px;
-        height: 408px;
+        height: 350px;
         background: linear-gradient(to bottom, #ffffff 0%, #E1EEFA 54%, #A0CBF2 100%);
+    }
+
+    div#boxcard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        border: 3px solid #D6E4F1;
+        border-radius: 20px;
+        width: 72%;
+        height: 88%;
+    }
+
+    div#boxcard > h1 {
+        margin-top: 10px;
+        font-size: 23px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    span.azuldestaque {
+        color: #0086FF;
+    }
+
+    div#boxcard > input {
+        border: 1px solid black;
+        border-radius: 50px;
+        width: 82%;
+        height: 15%;
+        margin: 4px 0;
+    }
+
+    div#boxcard > input#inputNome {
+        margin-top: 10px;
+    }
+
+    ::placeholder {
+        font-size: 15px;
+        padding-left: 8px;
+        font-weight: bold;
+        opacity: 80%;
+    }
+
+    div#boxcard a {
+        margin-top: 3%;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        background-color: #FFA500;
+        width: 50%;
+        height: 15%;
+        border-radius: 40px;
+        text-align: center;
+        align-content: center;
     }
 
 }
