@@ -40,6 +40,26 @@
     height: 396px;
     border-radius: 20px;
 }
+.item-cursos{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.modf-text{
+    font-size: 48px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
 #contnr-img-cursos-intermed{
     background-image: url(Imagens/Img-nivelamento-intermed.png);
     width: 352px;
