@@ -18,3 +18,37 @@
     font-weight: 600;
     font-size: 32px;
 }
+
+.cmc-topico-niveis{
+    margin-top: 200px;
+    margin-bottom: 100px; /*remover bottom apos colocar o carrossel altomatico das bandeiras*/
+    text-align: center;
+}
+
+
+
+#contnr-alinmt-niveis{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+
+#contnr-img-cursos-basic{
+    background-image: url(Imagens/Img-nivelamento-basic.png);
+    width: 352px;
+    height: 396px;
+    border-radius: 20px;
+}
+#contnr-img-cursos-intermed{
+    background-image: url(Imagens/Img-nivelamento-intermed.png);
+    width: 352px;
+    height: 396px;
+    border-radius: 20px;
+}
+#contnr-img-cursos-avancd{
+    background-image: url(Imagens/Img-nivelamento-avanced.png);
+    width: 352px;
+    height: 396px;
+    border-radius: 20px;
+}
