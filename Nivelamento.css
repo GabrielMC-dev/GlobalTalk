@@ -39,12 +39,16 @@
     width: 352px;
     height: 396px;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
 }
 .item-cursos{
+    font-family: 'Instrument Sans', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    gap: 50px;
     
 }
 .modf-text{
@@ -52,11 +56,20 @@
     color: white;
 }
 
-
-
-
-
-
+.btao-cursos{
+    font-family: 'Instrument Sans', sans-serif;
+    width: 200px;
+    height: 18%;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    border-radius: 25px;
+    color: rgb(0, 0, 0, 80%);
+    font-size: 32px;
+    font-weight: 400;
+    background-color: rgb(217, 217, 217, 75%);
+    margin-bottom: 50px;
+}
 
 
 
@@ -65,10 +78,32 @@
     width: 352px;
     height: 396px;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
 }
 #contnr-img-cursos-avancd{
     background-image: url(Imagens/Img-nivelamento-avanced.png);
     width: 352px;
     height: 396px;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#nivelamento-text{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+}
+#saibanveis-text{
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+#cliqaq-text{
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #0086FF;
 }

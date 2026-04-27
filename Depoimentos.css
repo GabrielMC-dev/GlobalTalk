@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#mobile{
+    display: none;
+}
+#alinmt-margin-depoimentos{
+    max-width: 90%;
+    margin: auto;
+}
+.cmc-topico-dpoimnts{
+    margin-top: 200px;
+    margin-bottom: 100px; /*remover bottom apos colocar o carrossel altomatico das bandeiras*/
+    text-align: center;
+}
+#confg-h1-dpoimnts{
+    color: #1B467D;
+    font-size: 64px;
+}
+.cntnr-alinmt-depoimentos{
+    display: flex;
+    gap: 40px;
+}
+.tmnho-foto{
+    max-width: 115px;
+}
+.card-depoimentos{
+    width: 450px;
+    height: 400px;
+    background-color: #D0E5FF;
+    border: 1px solid black;
+    border-radius: 0 20px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.item-ft-dpoimt{
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.nome-depoimnts{
+    background-color: #F5F5F5;
+    font-size: 32px;
+    text-align: center;
+    padding: 5% 0%;
+    font-family: 'Instrument Sans', sans-serif;
+    
+
+}
+.card-fala-dpmt{
+    margin-top: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+    width: 70%;
+    height: 80%;
+    font-size: 20px;
+    font-family: 'Instrument Sans', sans-serif;
+    padding: 2%;
+    border-radius: 20px 0px;
+
+}
+#estrelas-dpmnts{
+    margin-top: 20px;
+}
