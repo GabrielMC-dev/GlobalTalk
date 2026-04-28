@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="PerguntasFQ.css">
     <link rel="stylesheet" href="Footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    
 
     <title>Global Talk</title>
 </head>
@@ -66,7 +67,7 @@
                 <div class="img-pais-Brasil">
                     <div class="box-intrn-cursos">
                         <div class="text-intrno-cursos">
-                            <h2 class="confg-h2-cursos">Portuguese</h2>
+                            <h2 class="confg-h2-cursos">Português</h2>
                         </div>
                         <a href=""  class="btao-img-cursos">Comece Agora</a>
                         
@@ -140,7 +141,7 @@
                 <div class="img-pais-Japao">
                     <div class="box-intrn-cursos">
                         <div class="text-intrno-cursos">
-                            <h2 class="confg-h2-cursos">Japao</h2>
+                            <h2 class="confg-h2-cursos">Japão</h2>
                         </div>
                         <a href=""  class="btao-img-cursos">Comece Agora</a>
                         
@@ -304,35 +305,108 @@
                 </div>
 
 
+            </section>
+        <!-----------------------------------FIM DA PARTE 5 - DEPOIMENTOS--------------------------------->
 
 
 
+        <!------------------------------------COMEÇO DA PARTE 6 - PERGUNTASFQ--------------------------------->
+
+            <section id="alinmt-margin-prgntsFQ">
+
+                <div class="cmc-topico-prqntsFQ">
+                    <h1 class="font-instrument" id="confg-h1-prqntsFQ">Perguntas Frequentes</h1>
+                        <p class="font-instrument" id="confg-paragf-prqntsFQ"><br>“Dúvidas recorrentes sobre o curso e seu <span class="cor-azul-destq"> progresso</span>,</br>veja algumas perguntas aqui!”</p>
+                </div>
+
+                <div class="alinmt-prgnts-FQ">
+
+                    <div class="box-prqntsFQ-1">
+                        <div class="alinmt-text-sta">
+                            <h2 class="stl-pergnt-FQ">O curso oferece certificado?</h2>
+                            <p><span class="material-symbols-outlined"  onclick="clickAbrir1()">&#xF181;</span></p>
+                        </div>
+
+                        <div class="text-FQ1" style="display: block;">
+                            <p class="stl-rspt-FQ">Sim! Nosso curso oferece certificados acada etapa de conclusao de niveis, mostrando seu progresso conforme o tempo!</p>
+                        </div>
+                    </div>
+
+                    <div class="box-prqntsFQ-1">
+                        <div class="alinmt-text-sta">
+                            <h2 class="stl-pergnt-FQ">Tenho acesso aos professores?</h2>
+                            <p><span class="material-symbols-outlined"  onclick="clickAbrir2()">&#xF181;</span></p>
+                        </div>
+
+                        <div class="text-FQ2" style="display: none;">
+                            <p class="stl-rspt-FQ">Sim! Durante as aulas do curso nós disponibilizamos o contato dos nossos mentores
+                                para te auxiliar em seu progresso.</p>
+                        </div>
+                    </div>
+
+                    <div class="box-prqntsFQ-1">
+                        <div class="alinmt-text-sta">
+                            <h2 class="stl-pergnt-FQ">Qual é a duração do curso?</h2>
+                            <p><span class="material-symbols-outlined"  onclick="clickAbrir3()">&#xF181;</span></p>
+                        </div>
+
+                        <div class="text-FQ3" style="display: none;">
+                            <p class="stl-rspt-FQ">A duração varia de acordo com sua evolução, seu progresso acontece no seu tempo!</p>
+                        </div>
+                    </div>
+
+                    <div class="box-prqntsFQ-1">
+                        <div class="alinmt-text-sta">
+                            <h2 class="stl-pergnt-FQ">Há opções de parcelamento?</h2>
+                            <p><span class="material-symbols-outlined"  onclick="clickAbrir4()">&#xF181;</span></p>
+                        </div>
+
+                        <div class="text-FQ4 none">
+                            <p class="stl-rspt-FQ">Sim! Disponibilizamos várias formas de pagamento, para que você possa se organizar 
+                                da melhor forma e dar continuidade ao seu aprendizado.</p>
+                        </div>
+                    </div>
 
 
-
+                </div>
 
 
             </section>
 
 
+       <!-----------------------------------FIM DA PARTE 6 - PERGUNTASFQ--------------------------------->
 
 
 
+        <!------------------------------------COMEÇO DA PARTE 7 - FOOTER--------------------------------->
+            <footer id="alinmt-margin-footer">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </footer>
 
 
     </section>
     
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -361,5 +435,56 @@
     <script src="faq.js"></script>
     <script src="footer.js"></script>
     <script src="script.js"></script>
+
+    <script>
+        var caixatext1= document.querySelector(".text-FQ1")
+
+                function clickAbrir1(){
+
+            
+                    if (caixatext1.style.display == 'block'){
+                        caixatext1.style.display = 'none';
+                    }else{
+                        caixatext1.style.display = 'block';
+                    }
+                         
+                }
+
+                
+                function clickAbrir2(){
+                    var caixatext2 = document.querySelector(".text-FQ2")
+                     if (caixatext2.style.display == 'block'){
+                        caixatext2.style.display = 'none';
+                    }else{
+                        caixatext2.style.display = 'block';
+                    }
+                     
+                }
+
+                function clickAbrir3(){
+                    var caixatext3 = document.querySelector(".text-FQ3")
+                     if (caixatext3.style.display == 'block'){
+                        caixatext3.style.display = 'none';
+                    }else{
+                        caixatext3.style.display = 'block';
+                    }
+                     
+                }
+
+                
+                    function clickAbrir4(){
+                    var caixatext4 = document.querySelector(".text-FQ4")
+                     if (caixatext4.style.display == 'block'){
+                        caixatext4.style.display = 'none';
+                    }else{
+                        caixatext4.style.display = 'block';
+                    }
+                     
+                }
+    </script>
+
+
+
+
 </body>
 </html>
