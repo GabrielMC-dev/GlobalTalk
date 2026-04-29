@@ -19,7 +19,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 3px 2px darkgray;
     padding: 0% 5%;
 }
 
@@ -68,7 +67,9 @@ header{
         margin-bottom: 20px;
     }
     
-    header.headercont {
+    header.headercont{
+        display: flex;
+        flex-direction: column;
         position: fixed;
         z-index: 10;
         box-shadow: 0px 3px 2px darkgray;
@@ -78,13 +79,21 @@ header{
     }
     
     .headercont {
+        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
     
-    header.headercont > img {
+    header.headercont img {
         width: 150px
+    }
+
+    #head1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0px 3px 2px darkgray;
     }
 
     #hfalso {
@@ -98,17 +107,15 @@ header{
         width: 150px;
     }
     
-    header.headercont > span.material-symbols-outlined {
+    header.headercont  span.material-symbols-outlined {
         font-size: 44px;
     }
     
-    nav {
+    div.head2 nav {
         background-color: white;
         margin-top: 5px;
-        display: none;
+        display: fl;
         flex-direction: column;
-        position: absolute;
-        z-index: 2;
         width: 100%;
         text-align: center;
     }
