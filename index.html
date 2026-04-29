@@ -62,12 +62,13 @@
 
 
 
-
+    
     <section id="mobile">
         <header class="headercont">
             <img src="Imagens/Icons site edited.png" alt="Logo">
             <span onclick="menu()" class="material-symbols-outlined" id="menuh">&#xE5D2;</span>
         </header>
+        <div class="overlay" id="overlay" onclick="fechaMenu()"></div>
         <nav id="nav">
             <a href="">Inicio</a>
             <a href="">Cursos</a>
@@ -115,50 +116,50 @@
                 <div class="carrossel">
                     <div class="cardcursobr">
                         <div class="boxcarrossel">
-                            <p></p>
-                            <a href=""></a>
+                            <p class="pcursos">Português</p>
+                            <a href="" class="acursos">Comece Agora</a>
                         </div>
                     </div>
                     <div class="cardcursoale">
                         <div class="boxcarrossel">
-                            <p></p>
-                            <a href=""></a>
+                            <p class="pcursos">Alemão</p>
+                            <a href="" class="acursos">Comece Agora</a>
                         </div>
                     </div>
                     <div class="cardcursochi">
                         <div class="boxcarrossel">
-                            <p></p>
-                            <a href=""></a>
+                            <p class="pcursos">Chinês</p>
+                            <a href="" class="acursos">Comece Agora</a>
                         </div>
                     </div>
                     <div class="cardcursoeua">
                         <div class="boxcarrossel">
-                            <p></p>
-                            <a href=""></a>
+                            <p class="pcursos">Inglês</p>
+                            <a href="" class="acursos">Comece Agora</a>
                         </div>
                     </div>
                     <div class="cardcursorus">
                         <div class="boxcarrossel">
-                            <p></p>
-                            <a href=""></a>
+                            <p class="pcursos">Russo</p>
+                            <a href="" class="acursos">Comece Agora</a>
                         </div>
                     </div>
                     <div class="cardcursoita">
                         <div class="boxcarrossel">
-                            <p></p>
-                            <a href=""></a>
+                            <p class="pcursos">Italiano</p>
+                            <a href="" class="acursos">Comece Agora</a>
                         </div>
                     </div>
                     <div class="cardcursojap">
                         <div class="boxcarrossel">
-                            <p></p>
-                            <a href=""></a>
+                            <p class="pcursos">Japonês</p>
+                            <a href="" class="acursos">Comece Agora</a>
                         </div>
                     </div>
                     <div class="cardcursoesp">
                         <div class="boxcarrossel">
-                            <p></p>
-                            <a href=""></a>
+                            <p class="pcursos">Espanhol</p>
+                            <a href="" class="acursos">Comece Agora</a>
                         </div>
                     </div>
                 </div>
@@ -168,7 +169,7 @@
 
         <section id="sec3">
             <h1 class="azulh1">Qual é o seu nível?</h1>
-            <p class="ps">"Oferecemos o material adequado <br> para o seu <span class="azuldestaque">conhecimento</span> atual!"</p>
+            <p class="ps">"Oferecemos o material adequado<br>para o seu <span class="azuldestaque">conhecimento</span> atual!"</p>
             <div class="nivel">
                 <div class="cardsec31">
                     <div class="alinhar">
@@ -200,10 +201,85 @@
 
         <section id="sec4">
             <div class="divsec4">
-                <h1>Sobre Nós!</h1>
+                <h1 class="azulh1">Sobre Nós!</h1>
                 <img src="Imagens/imgsobrenosmob.png" alt="Reunião">
-                <p>“Acreditamos no potencial de nossa metodologia com profissionais capacitados e dispostos a trasformar sua comunicação”</p>
+                <p class="ps">“Acreditamos no potencial de nossa metodologia com profissionais capacitados e dispostos<br>a trasformar sua <span class="azuldestaque">comunicação</span>”</p>
                 <a href="">Saiba mais</a>
+            </div>
+        </section>
+
+        <section id="sec5">
+            <h1 class="azulh1">Depoimentos</h1>
+            <div id="containersec5">
+                <div class="carrsec5">
+                    <div class="card">
+                        <img src="Imagens/Nyk.png" alt="User">
+                        <div id="boxsec5">
+                            <p>“O material realmente<br>entrega uma didática muito<br>boa. Curso Fera🔥”</p>
+                            <img src="Imagens/estrelassec5.png" alt="estrelas">
+                        </div>
+                        <div id="nomesec5">
+                            <p>Nykolas Fornaziero</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="Imagens/Emer.png" alt="User">
+                        <div id="boxsec5">
+                            <p>“O material realmente<br>entrega uma didática muito<br>boa. Curso Fera🔥”</p>
+                            <img src="Imagens/estrelassec5.png" alt="estrelas">
+                        </div>
+                        <div id="nomesec5">
+                            <p>Emerson de Oliveira</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="Imagens/Mat.png" alt="User">
+                        <div id="boxsec5">
+                            <p>“O material realmente<br>entrega uma didática muito<br>boa. Curso Fera🔥”</p>
+                            <img src="Imagens/estrelassec5.png" alt="estrelas">
+                        </div>
+                        <div id="nomesec5">
+                            <p>Matheus Romano</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sec6">
+            <h1 class="azulh1">Perguntas<br>Frequentes</h1>
+            <p class="ps">“Dúvidas recorrentes sobre o curso e<br>seu <span class="azuldestaque">progresso</span>, veja algumas perguntas<br>aqui!”</p>
+            <div id="perguntas">
+                <div class="boxsec6">
+                    <div class="h2span">
+                        <h2>O curso oferece certificado?</h2>
+                        <span onclick="abrirCaixa(caixaP)" class="material-symbols-outlined" class="caixaP" id="caixaP1">&#xF181;</span>
+                    </div>
+                    <p id="p1">Sim! Nosso curso oferece certificados acada etapa de conclusao de niveis, mostrando seu progresso conforme o tempo!</p>
+                </div>
+                <div class="boxsec6">
+                    <div class="h2span">
+                        <h2>Tenho acesso aos professores?</h2>
+                        <span onclick="abrirCaixa(caixaP)" class="material-symbols-outlined" class="caixaP" id="caixaP2">&#xF181;</span>
+                    </div>
+                    <p id="p2">Sim! Durante as aulas do curso nós disponibilizamos o contato dos nossos mentores
+ para te auxiliar em seu progresso.</p>
+                </div>
+                <div class="boxsec6">
+                    <div class="h2span">
+                        <h2>Qual é a duração do curso?</h2>
+                        <span onclick="abrirCaixa(caixaP)" class="material-symbols-outlined" class="caixaP" id="caixaP3">&#xF181;</span>
+                    </div>
+                    <p id="p3">A duração varia de acordo com sua evolução, seu progresso acontece no seu tempo!</p>
+                </div>
+                <div class="boxsec6">
+                    <div class="h2span">
+                        <h2>Há opções de parcelamento?</h2>
+                        <span onclick="abrirCaixa(caixaP)" class="material-symbols-outlined" class="caixaP" id="caixaP4">&#xF181;</span>
+                    </div>
+                    <p id="p4">Sim! Disponibilizamos várias formas de pagamento, para que você possa se organizar 
+da melhor forma e dar continuidade ao seu aprendizado.</p>
+                </div>
             </div>
         </section>
     </section>

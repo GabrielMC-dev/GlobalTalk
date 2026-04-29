@@ -1,0 +1,84 @@
+@media screen and (min-width: 360px) and (max-width: 768px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Instrument Sans', sans-serif;
+    }
+
+    section#desktop {
+        display: none;
+    }
+
+    section#sec5 {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    section#sec5 > h1 {
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 28px;
+    }
+
+    /* div#containersec5 {
+        width: 100%;
+    } */
+
+    div.carrsec5 {
+        display: flex;
+        gap: 1.2em;
+        overflow: auto;
+        scrollbar-width: none;
+        scroll-snap-type: x mandatory;
+    }
+
+    div.card {
+        background-color: #D0E5FF;
+        border: 1px solid black;
+        border-radius: 0 20px;
+        /* margin: auto; */
+        height: 300px;
+        display: flex;
+        flex: 0 0 280px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        scroll-snap-align: center;
+        margin: 0 2%;
+    }
+
+    div#boxsec5 {
+        background-color: #fff;
+        border-radius: 20px 0;
+        width: 86%;
+        height: 30%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    div.card > img {
+        margin-top: 25px;
+    }
+
+    div#boxsec5 p {
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    div#nomesec5 {
+        background-color: #F5F5F5;
+        border-radius: 0 0 0 20px;
+        width: 100%;
+        height: 20%;
+        text-align: center;
+        align-content: center;
+        font-size: 24px;
+    }
+
+}
