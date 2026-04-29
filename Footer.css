@@ -1,0 +1,65 @@
+@media screen and (min-width: 360px) and (max-width: 768px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Instrument Sans', sans-serif;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    section#desktop {
+        display: none;
+    }
+
+    footer {
+        background-color: #93BCE3;
+        color: white;
+        padding: 10px;
+        padding-top: 30px;
+    }
+
+    footer h1 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    div#footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2 {
+        align-content: center;
+        margin: 20px auto;
+    }
+
+    div#icons {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 20px auto;
+    }
+
+    footer p {
+        text-align: center;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    footer div#afoot1, footer div#afoot2, footer div#afoot3 {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer a.texto {
+        text-decoration: none;
+        color: white;
+        margin: 6px 0;
+        font-size: 20px;
+    }
+}

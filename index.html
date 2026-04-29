@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="PerguntasFQ.css">
     <link rel="stylesheet" href="Footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!-- <link rel="shortcut icon" href="Imagens/" type="image/x-icon"> -->
 
     <title>Global Talk</title>
 </head>
@@ -64,18 +65,38 @@
 
     
     <section id="mobile">
+
+        <!-- INÍCIO HEADER -->
+
         <header class="headercont">
             <img src="Imagens/Icons site edited.png" alt="Logo">
             <span onclick="menu()" class="material-symbols-outlined" id="menuh">&#xE5D2;</span>
         </header>
+
+        <header id="hfalso">
+            <img src="Imagens/Icons site edited.png" alt="Logo">
+            <span onclick="menu()" class="material-symbols-outlined" id="menuh">&#xE5D2;</span>
+        </header>
+
+        
         <div class="overlay" id="overlay" onclick="fechaMenu()"></div>
-        <nav id="nav">
-            <a href="">Inicio</a>
-            <a href="">Cursos</a>
-            <a href="">Níveis</a>
-            <a href="">Duvidas</a>
-            <a href="" id="suporte">Suporte  </a>
+        
+        <!-- FIM HEADER -->
+        
+        <!-- INÍCIO NAV -->
+
+        
+        <nav id="nav" style="display: none;">
+            <a href="#header" onclick="fechaMenu()">Inicio</a>
+            <a href="#sec2" onclick="fechaMenu()">Cursos</a>
+            <a href="#sec3" onclick="fechaMenu()">Níveis</a>
+            <a href="#sec6" onclick="fechaMenu()">Duvidas</a>
+            <a href="#footer" id="suporte" onclick="fechaMenu()">Suporte  </a>
         </nav>
+        
+        <!-- FIM NAV -->
+
+        <!-- INÍCIO TOPO -->
 
         <section id="sec1">
             <div id="boxcard">
@@ -86,6 +107,10 @@
                 <a href="">Comece Agora</a>
             </div>
         </section>
+
+        <!-- FIM TOPO -->
+
+        <!-- INÍCIO CURSOS -->
 
         <section id="sec2">
             <h1 class="azulh1">Sessão de Cursos</h1>
@@ -164,8 +189,11 @@
                     </div>
                 </div>
             </div>
-
         </section>
+
+        <!-- FIM CURSOS -->
+
+        <!-- INÍCIO NIVELAMENTO -->
 
         <section id="sec3">
             <h1 class="azulh1">Qual é o seu nível?</h1>
@@ -199,6 +227,10 @@
                 <h3>Saiba sobre os níveis, <a href="">Clique aqui</a></h3>
         </section>
 
+        <!-- FIM NIVELAMENTO -->
+
+        <!-- INÍCIO SOBRE NÓS -->
+
         <section id="sec4">
             <div class="divsec4">
                 <h1 class="azulh1">Sobre Nós!</h1>
@@ -207,6 +239,10 @@
                 <a href="">Saiba mais</a>
             </div>
         </section>
+
+        <!-- FIM SOBRE NÓS -->
+
+        <!-- INÍCIO DEPOIMENTOS -->
 
         <section id="sec5">
             <h1 class="azulh1">Depoimentos</h1>
@@ -246,6 +282,10 @@
             </div>
         </section>
 
+        <!-- FIM DEPOIMENTOS -->
+
+        <!-- INÍCIO FAQ -->
+
         <section id="sec6">
             <h1 class="azulh1">Perguntas<br>Frequentes</h1>
             <p class="ps">“Dúvidas recorrentes sobre o curso e<br>seu <span class="azuldestaque">progresso</span>, veja algumas perguntas<br>aqui!”</p>
@@ -253,36 +293,84 @@
                 <div class="boxsec6">
                     <div class="h2span">
                         <h2>O curso oferece certificado?</h2>
-                        <span onclick="abrirCaixa(caixaP)" class="material-symbols-outlined" class="caixaP" id="caixaP1">&#xF181;</span>
+                        <span onclick="abrirCaixa1()" class="material-symbols-outlined">&#xF181;</span>
                     </div>
-                    <p id="p1">Sim! Nosso curso oferece certificados acada etapa de conclusao de niveis, mostrando seu progresso conforme o tempo!</p>
+                    <p id="caixaP1" class="caixaP" style="display: block;">Sim! Nosso curso oferece certificados acada etapa de conclusao de niveis, mostrando seu progresso conforme o tempo!</p>
                 </div>
                 <div class="boxsec6">
                     <div class="h2span">
                         <h2>Tenho acesso aos professores?</h2>
-                        <span onclick="abrirCaixa(caixaP)" class="material-symbols-outlined" class="caixaP" id="caixaP2">&#xF181;</span>
+                        <span onclick="abrirCaixa2()" class="material-symbols-outlined">&#xF181;</span>
                     </div>
-                    <p id="p2">Sim! Durante as aulas do curso nós disponibilizamos o contato dos nossos mentores
+                    <p id="caixaP2" class="caixaP">Sim! Durante as aulas do curso nós disponibilizamos o contato dos nossos mentores
  para te auxiliar em seu progresso.</p>
                 </div>
                 <div class="boxsec6">
                     <div class="h2span">
                         <h2>Qual é a duração do curso?</h2>
-                        <span onclick="abrirCaixa(caixaP)" class="material-symbols-outlined" class="caixaP" id="caixaP3">&#xF181;</span>
+                        <span onclick="abrirCaixa3()" class="material-symbols-outlined">&#xF181;</span>
                     </div>
-                    <p id="p3">A duração varia de acordo com sua evolução, seu progresso acontece no seu tempo!</p>
+                    <p id="caixaP3" class="caixaP">A duração varia de acordo com sua evolução, seu progresso acontece no seu tempo!</p>
                 </div>
                 <div class="boxsec6">
                     <div class="h2span">
                         <h2>Há opções de parcelamento?</h2>
-                        <span onclick="abrirCaixa(caixaP)" class="material-symbols-outlined" class="caixaP" id="caixaP4">&#xF181;</span>
+                        <span onclick="abrirCaixa4()" class="material-symbols-outlined">&#xF181;</span>
                     </div>
-                    <p id="p4">Sim! Disponibilizamos várias formas de pagamento, para que você possa se organizar 
+                    <p id="caixaP4" class="caixaP">Sim! Disponibilizamos várias formas de pagamento, para que você possa se organizar 
 da melhor forma e dar continuidade ao seu aprendizado.</p>
                 </div>
             </div>
         </section>
+        
+        <!-- FIM FAQ -->
+        
+        <!-- INÍCIO FOOTER -->
+        
+        <footer id="footer">
+            <h1>“Seu sucesso é a nossa<br>maior conquista!”</h1>
+            <div id="footer">
+            <h2 onclick="rodapeFooter1()" id="h21">Empresa</h2>
+            <div id="afoot1">
+                <a href="#sec4" class="texto" onclick="fechaFoot1()">Sobre Nós</a>
+                <a href="" class="texto" onclick="fechaFoot1()">Blog</a>
+                <a href="" class="texto" onclick="fechaFoot1()">Parcerias</a>
+                <a href="" class="texto" onclick="fechaFoot1()">Trabalhe Conosco</a>
+                <a href="" class="texto" onclick="fechaFoot1()">Nossa Equipe</a>
+            </div>
+            <h2 onclick="rodapeFooter2()" id="h22">Cursos</h2>
+            <div id="afoot2">
+                <a href="#sec2" class="texto" onclick="fechaFoot2()">Inglês</a>
+                <a href="#sec2" class="texto" onclick="fechaFoot2()">Alemão</a>
+                <a href="#sec2" class="texto" onclick="fechaFoot2()">Russo</a>
+                <a href="#sec2" class="texto" onclick="fechaFoot2()">Espanhol</a>
+                <a href="#sec2" class="texto" onclick="fechaFoot2()">Português</a>
+                <a href="#sec2" class="texto" onclick="fechaFoot2()">Italiano</a>
+                <a href="#sec2" class="texto" onclick="fechaFoot2()">Japonês</a>
+                <a href="#sec2" class="texto" onclick="fechaFoot2()">Chinês</a>
+            </div>
+            <h2 onclick="rodapeFooter3()" id="h23">Suporte</h2>
+            <div id="afoot3">
+                <a href="#sec6" class="texto" onclick="fechaFoot3()">Perguntas Frequentes</a>
+                <a href="" class="texto" onclick="fechaFoot3()">Contato</a>
+                <a href="#sec5" class="texto" onclick="fechaFoot3()">Depoimentos</a>
+                <a href="" class="texto" onclick="fechaFoot3()">Termos de Uso</a>
+                <a href="" class="texto" onclick="fechaFoot3()">(19) 0000-0000</a>
+            </div>
+        </div>
+        <div id="icons">
+            <a href=""><img src="Imagens/Instagram.png" alt="Insta"></a>
+            <a href=""><img src="Imagens/Linkedin.png" alt="Linkedin"></a>
+            <a href=""><img src="Imagens/Facebook.png" alt="Facebook"></a>
+            <a href=""><img src="Imagens/Youtube.png" alt="Youtube"></a>    
+        </div>
+        <p>Copyright © 2026 Global Talk. All rights reserved.</p>   
+        </footer>
+    
+        <!-- FIM FOOTER -->
     </section>
+
+
     
     <script src="menuh.js"></script>
     <script src="carrossel.js"></script>
