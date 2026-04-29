@@ -6,6 +6,9 @@
 #mobile{
     display: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 .alinmt-margin{
     max-width: 100%;
     margin: auto;
