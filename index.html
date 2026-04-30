@@ -476,15 +476,15 @@
 
         <header class="headercont">
             <div id="head1">
-                <img src="Imagens/Icons site edited.png" alt="Logo">
+                <a href=""><img src="Imagens/Icons site edited.png" alt="Logo"></a>
                 <span onclick="menu()" class="material-symbols-outlined" id="menuh">&#xE5D2;</span>
             </div>
-            <div id="head2">
+            <div id="head2" style="display: none;">
                 <nav id="nav" style="display: flex;">
-                    <a href="#header" onclick="fechaMenu()">Inicio</a>
-                    <a href="#sec2" onclick="fechaMenu()">Cursos</a>
-                    <a href="#sec3" onclick="fechaMenu()">Níveis</a>
-                    <a href="#sec6" onclick="fechaMenu()">Duvidas</a>
+                    <a href="#hfalso" id="inicio" onclick="fechaMenu()">Inicio</a>
+                    <a href="#alaranja" onclick="fechaMenu()">Cursos</a>
+                    <a href="#bxcarr" onclick="fechaMenu()">Níveis</a>
+                    <a href="#nikanch" onclick="fechaMenu()">Dúvidas</a>
                     <a href="#footer" id="suporte" onclick="fechaMenu()">Suporte  </a>
                 </nav>
             </div>
@@ -499,12 +499,6 @@
         <div class="overlay" id="overlay" onclick="fechaMenu()"></div>
         
         <!-- FIM HEADER -->
-        
-        <!-- INÍCIO NAV -->
-
-        
-        
-        <!-- FIM NAV -->
 
         <!-- INÍCIO TOPO -->
 
@@ -514,7 +508,7 @@
                 <input type="text" placeholder="Nome:" id="inputNome">
                 <input type="text" placeholder="Email:">
                 <input type="text" placeholder="Telef:">
-                <a href="">Comece Agora</a>
+                <a href="" id="alaranja">Comece Agora</a>
             </div>
         </section>
 
@@ -550,7 +544,7 @@
             <div class="container">
                 <div class="carrossel">
                     <div class="cardcursobr">
-                        <div class="boxcarrossel">
+                        <div id="bxcarr" class="boxcarrossel">
                             <p class="pcursos">Português</p>
                             <a href="" class="acursos">Comece Agora</a>
                         </div>
@@ -634,7 +628,7 @@
                         </div>
                     </div>
                 </div>
-                <h3>Saiba sobre os níveis, <a href="">Clique aqui</a></h3>
+                <h3 id="h3anch">Saiba sobre os níveis, <a href="">Clique aqui</a></h3>
         </section>
 
         <!-- FIM NIVELAMENTO -->
@@ -646,7 +640,7 @@
                 <h1 class="azulh1">Sobre Nós!</h1>
                 <img src="Imagens/imgsobrenosmob.png" alt="Reunião">
                 <p class="ps">“Acreditamos no potencial de nossa metodologia com profissionais capacitados e dispostos<br>a trasformar sua <span class="azuldestaque">comunicação</span>”</p>
-                <a href="">Saiba mais</a>
+                <a id="asobre" href="">Saiba mais</a>
             </div>
         </section>
 
@@ -665,7 +659,7 @@
                             <img src="Imagens/estrelassec5.png" alt="estrelas">
                         </div>
                         <div id="nomesec5">
-                            <p>Nykolas Fornaziero</p>
+                            <p id="nikanch">Nykolas Fornaziero</p>
                         </div>
                     </div>
                     <div class="card">
@@ -703,14 +697,14 @@
                 <div class="boxsec6">
                     <div class="h2span">
                         <h2>O curso oferece certificado?</h2>
-                        <span onclick="abrirCaixa1()" class="material-symbols-outlined">&#xF181;</span>
+                        <span onclick="abrirCaixa1()" class="material-symbols-outlined" id="mudarSeta1">&#xF182;</span>
                     </div>
                     <p id="caixaP1" class="caixaP" style="display: block;">Sim! Nosso curso oferece certificados acada etapa de conclusao de niveis, mostrando seu progresso conforme o tempo!</p>
                 </div>
                 <div class="boxsec6">
                     <div class="h2span">
                         <h2>Tenho acesso aos professores?</h2>
-                        <span onclick="abrirCaixa2()" class="material-symbols-outlined">&#xF181;</span>
+                        <span onclick="abrirCaixa2()" class="material-symbols-outlined" id="mudarSeta2">&#xF181;</span>
                     </div>
                     <p id="caixaP2" class="caixaP">Sim! Durante as aulas do curso nós disponibilizamos o contato dos nossos mentores
  para te auxiliar em seu progresso.</p>
@@ -718,14 +712,14 @@
                 <div class="boxsec6">
                     <div class="h2span">
                         <h2>Qual é a duração do curso?</h2>
-                        <span onclick="abrirCaixa3()" class="material-symbols-outlined">&#xF181;</span>
+                        <span onclick="abrirCaixa3()" class="material-symbols-outlined" id="mudarSeta3">&#xF181;</span>
                     </div>
                     <p id="caixaP3" class="caixaP">A duração varia de acordo com sua evolução, seu progresso acontece no seu tempo!</p>
                 </div>
                 <div class="boxsec6">
                     <div class="h2span">
                         <h2>Há opções de parcelamento?</h2>
-                        <span onclick="abrirCaixa4()" class="material-symbols-outlined">&#xF181;</span>
+                        <span onclick="abrirCaixa4()" class="material-symbols-outlined" id="mudarSeta4">&#xF181;</span>
                     </div>
                     <p id="caixaP4" class="caixaP">Sim! Disponibilizamos várias formas de pagamento, para que você possa se organizar 
 da melhor forma e dar continuidade ao seu aprendizado.</p>
@@ -742,7 +736,7 @@ da melhor forma e dar continuidade ao seu aprendizado.</p>
             <div id="footer">
             <h2 onclick="rodapeFooter1()" id="h21">Empresa</h2>
             <div id="afoot1">
-                <a href="#sec4" class="texto" onclick="fechaFoot1()">Sobre Nós</a>
+                <a href="#h3anch" class="texto" onclick="fechaFoot1()">Sobre Nós</a>
                 <a href="" class="texto" onclick="fechaFoot1()">Blog</a>
                 <a href="" class="texto" onclick="fechaFoot1()">Parcerias</a>
                 <a href="" class="texto" onclick="fechaFoot1()">Trabalhe Conosco</a>
@@ -750,20 +744,20 @@ da melhor forma e dar continuidade ao seu aprendizado.</p>
             </div>
             <h2 onclick="rodapeFooter2()" id="h22">Cursos</h2>
             <div id="afoot2">
-                <a href="#sec2" class="texto" onclick="fechaFoot2()">Inglês</a>
-                <a href="#sec2" class="texto" onclick="fechaFoot2()">Alemão</a>
-                <a href="#sec2" class="texto" onclick="fechaFoot2()">Russo</a>
-                <a href="#sec2" class="texto" onclick="fechaFoot2()">Espanhol</a>
-                <a href="#sec2" class="texto" onclick="fechaFoot2()">Português</a>
-                <a href="#sec2" class="texto" onclick="fechaFoot2()">Italiano</a>
-                <a href="#sec2" class="texto" onclick="fechaFoot2()">Japonês</a>
-                <a href="#sec2" class="texto" onclick="fechaFoot2()">Chinês</a>
+                <a href="#alaranja" class="texto" onclick="fechaFoot2()">Inglês</a>
+                <a href="#alaranja" class="texto" onclick="fechaFoot2()">Alemão</a>
+                <a href="#alaranja" class="texto" onclick="fechaFoot2()">Russo</a>
+                <a href="#alaranja" class="texto" onclick="fechaFoot2()">Espanhol</a>
+                <a href="#alaranja" class="texto" onclick="fechaFoot2()">Português</a>
+                <a href="#alaranja" class="texto" onclick="fechaFoot2()">Italiano</a>
+                <a href="#alaranja" class="texto" onclick="fechaFoot2()">Japonês</a>
+                <a href="#alaranja" class="texto" onclick="fechaFoot2()">Chinês</a>
             </div>
             <h2 onclick="rodapeFooter3()" id="h23">Suporte</h2>
             <div id="afoot3">
-                <a href="#sec6" class="texto" onclick="fechaFoot3()">Perguntas Frequentes</a>
+                <a href="#nikanch" class="texto" onclick="fechaFoot3()">Dúvidas</a>
                 <a href="" class="texto" onclick="fechaFoot3()">Contato</a>
-                <a href="#sec5" class="texto" onclick="fechaFoot3()">Depoimentos</a>
+                <a href="#asobre" class="texto" onclick="fechaFoot3()">Depoimentos</a>
                 <a href="" class="texto" onclick="fechaFoot3()">Termos de Uso</a>
                 <a href="" class="texto" onclick="fechaFoot3()">(19) 0000-0000</a>
             </div>

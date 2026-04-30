@@ -1,157 +1,160 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-#mobile{
-    display: none;
-}
-
-#alinmt-margin-cursos{
-    max-width: 90%;
-    margin: auto;
-}
-.cmc-topico-cursos{
-    margin-top: 200px;
-    margin-bottom: 200px; /*remover bottom apos colocar o carrossel altomatico das bandeiras*/
-    text-align: center;
-}
-#confg-h1-cursos{
-    color: #1B467D;
-    font-size: 64px;
-}
-#confg-paragf-cursos{
-    font-weight: 600;
-    font-size: 32px;
-}
-
-.contnr-cursos{
-    display: flex;
-    width: 5440px; /*Calculo de 8 x 680*/
-}
-
-.confg-h2-cursos{
-     font-family: 'Instrument Sans', sans-serif;
-     font-size: 36px;
-     
-}
-.img-pais-Brasil{
-    background-image: url(Imagens/Img-paises-Brasil.png);
-    background-repeat: no-repeat;
-    height: 486px;
-    width: 680px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    border-radius: 20px;
-}
-.box-intrn-cursos{
-    display: flex;
-    background-color: rgba(217, 217, 217, 80%);
-    justify-content: space-around;
-    align-items: center;
-    width: 80%;
-    margin-bottom: 20px;
-    border-radius: 30px;
-    height: 20%;
-}
-.text-intrno-cursos{
-    flex-direction: column;
+@media screen and (min-width: 769px) {
     
-}
-.btao-img-cursos{
-    background-color: #FFA500;
-    text-decoration: none;
-    font-family: 'Instrument Sans', sans-serif;
-    text-align: center;
-    width: 30%;
-    padding: 3% 1%;
-    border-radius: 50px;
-    color: black;
-    font-size: 20px;
-    font-weight: 600;
-}
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    #mobile{
+        display: none;
+    }
+
+    #alinmt-margin-cursos{
+        max-width: 90%;
+        margin: auto;
+    }
+    .cmc-topico-cursos{
+        margin-top: 200px;
+        margin-bottom: 200px; /*remover bottom apos colocar o carrossel altomatico das bandeiras*/
+        text-align: center;
+    }
+    #confg-h1-cursos{
+        color: #1B467D;
+        font-size: 64px;
+    }
+    #confg-paragf-cursos{
+        font-weight: 600;
+        font-size: 32px;
+    }
+
+    .contnr-cursos{
+        display: flex;
+        width: 5440px; /*Calculo de 8 x 680*/
+    }
+
+    .confg-h2-cursos{
+        font-family: 'Instrument Sans', sans-serif;
+        font-size: 36px;
+        
+    }
+    .img-pais-Brasil{
+        background-image: url(Imagens/Img-paises-Brasil.png);
+        background-repeat: no-repeat;
+        height: 486px;
+        width: 680px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        border-radius: 20px;
+    }
+    .box-intrn-cursos{
+        display: flex;
+        background-color: rgba(217, 217, 217, 80%);
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        margin-bottom: 20px;
+        border-radius: 30px;
+        height: 20%;
+    }
+    .text-intrno-cursos{
+        flex-direction: column;
+        
+    }
+    .btao-img-cursos{
+        background-color: #FFA500;
+        text-decoration: none;
+        font-family: 'Instrument Sans', sans-serif;
+        text-align: center;
+        width: 30%;
+        padding: 3% 1%;
+        border-radius: 50px;
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+    }
 
 
 
-.img-pais-Alemanha{
-    background-image: url(Imagens/Img-paises-Alemanha.png);
-    background-repeat: no-repeat;
-    height: 486px;
-    width: 680px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    border-radius: 20px;
-}
-.img-pais-China{
-    background-image: url(Imagens/Img-paises-China.png);
-    background-repeat: no-repeat;
-    height: 486px;
-    width: 680px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    border-radius: 20px;
-}
-.img-pais-StdsUnidos{
-    background-image: url(Imagens/Img-paises-StdsUnidos.png);
-    background-repeat: no-repeat;
-    height: 486px;
-    width: 680px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    border-radius: 20px;
-}
-.img-pais-Russia{
-    background-image: url(Imagens/Img-paises-Russia.png);
-    background-repeat: no-repeat;
-    height: 486px;
-    width: 680px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    border-radius: 20px;
-}
-.img-pais-Italia{
-    background-image: url(Imagens/Img-paises-Italia.png);
-    background-repeat: no-repeat;
-    height: 486px;
-    width: 680px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    border-radius: 20px;
-}
-.img-pais-Japao{
-    background-image: url(Imagens/Img-paises-Japao.png);
-    background-repeat: no-repeat;
-    height: 486px;
-    width: 680px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    border-radius: 20px;
-}
-.img-pais-Espanha{
-    background-image: url(Imagens/Img-paises-Espanha.png);
-    background-repeat: no-repeat;
-    height: 486px;
-    width: 680px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    border-radius: 20px;
+    .img-pais-Alemanha{
+        background-image: url(Imagens/Img-paises-Alemanha.png);
+        background-repeat: no-repeat;
+        height: 486px;
+        width: 680px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        border-radius: 20px;
+    }
+    .img-pais-China{
+        background-image: url(Imagens/Img-paises-China.png);
+        background-repeat: no-repeat;
+        height: 486px;
+        width: 680px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        border-radius: 20px;
+    }
+    .img-pais-StdsUnidos{
+        background-image: url(Imagens/Img-paises-StdsUnidos.png);
+        background-repeat: no-repeat;
+        height: 486px;
+        width: 680px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        border-radius: 20px;
+    }
+    .img-pais-Russia{
+        background-image: url(Imagens/Img-paises-Russia.png);
+        background-repeat: no-repeat;
+        height: 486px;
+        width: 680px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        border-radius: 20px;
+    }
+    .img-pais-Italia{
+        background-image: url(Imagens/Img-paises-Italia.png);
+        background-repeat: no-repeat;
+        height: 486px;
+        width: 680px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        border-radius: 20px;
+    }
+    .img-pais-Japao{
+        background-image: url(Imagens/Img-paises-Japao.png);
+        background-repeat: no-repeat;
+        height: 486px;
+        width: 680px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        border-radius: 20px;
+    }
+    .img-pais-Espanha{
+        background-image: url(Imagens/Img-paises-Espanha.png);
+        background-repeat: no-repeat;
+        height: 486px;
+        width: 680px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        border-radius: 20px;
+    }
 }
 
 @media screen and (min-width: 360px) and (max-width: 768px) {
@@ -181,7 +184,6 @@
         margin: 50px auto;
         width: 100%;
         display: flex;
-        gap: 1em;
         overflow-x: hidden;
     }
 
@@ -193,8 +195,9 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        animation: spin 7s infinite linear;
+        animation: spin 8s infinite linear;
         gap: 1em;
+        padding: 0 .5em;
     }
 
     div#carrloop img {
@@ -219,30 +222,26 @@
         scrollbar-width: none;
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
+        scroll-marker-group: after;
     }
 
-    .carrossel::scroll-button(left), .carrossel::scroll-button(right) {
-        margin-top: 15px;
+    .carrossel::scroll-marker-group {
+        display: flex;
+        justify-content: center;
+        gap: .5em;
+    }
+
+    .cardcursobr::scroll-marker, .cardcursoale::scroll-marker, .cardcursochi::scroll-marker, .cardcursoeua::scroll-marker, .cardcursorus::scroll-marker, .cardcursoita::scroll-marker, .cardcursojap::scroll-marker, .cardcursoesp::scroll-marker {
         content: '';
-        border: none;
-        background-color: #0086FF;
-        width: 20px;
-        height: 20px;
+        height: 1em;
+        width: 1em;
+        background-color: rgba(0, 132, 255, 0.35);
         border-radius: 50%;
+        margin-top: 12px;
     }
 
-    .carrossel::scroll-button(left) {
-        translate: 180px;
-    }
-
-    .carrossel::scroll-button(right) {
-        translate: 185px;
-    }
-
-    .carrossel::scroll-button(right):disabled, .carrossel::scroll-button(left):disabled {
-        opacity: 0.35;
-        cursor: auto;
-        background-color: #0084FF;
+    .cardcursobr::scroll-marker:target-current, .cardcursoale::scroll-marker:target-current, .cardcursochi::scroll-marker:target-current, .cardcursoeua::scroll-marker:target-current, .cardcursorus::scroll-marker:target-current, .cardcursoita::scroll-marker:target-current, .cardcursojap::scroll-marker:target-current, .cardcursoesp::scroll-marker:target-current {
+        background-color: rgb(0, 132, 255);
     }
 
     .boxcarrossel {
