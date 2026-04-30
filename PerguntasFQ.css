@@ -1,64 +1,66 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-#mobile{
-    display: none;
-}
-#alinmt-margin-prgntsFQ{
-    max-width: 60%;
-    margin: auto;
-}
-.cmc-topico-prqntsFQ{
-    margin-top: 200px;
-    margin-bottom: 100px; /*remover bottom apos colocar o carrossel altomatico das bandeiras*/
-    text-align: center;
-   
-}
-#confg-h1-prqntsFQ{
-    color: #1B467D;
-    font-size: 64px;
-}
-#confg-paragf-prqntsFQ{
-    font-weight: 600;
-    font-size: 32px;
+@media screen and (min-width: 769px) and (max-width: 2000px) {   
+   * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    #mobile{
+        display: none;
+    }
+    #alinmt-margin-prgntsFQ{
+        max-width: 60%;
+        margin: auto;
+    }
+    .cmc-topico-prqntsFQ{
+        margin-top: 200px;
+        margin-bottom: 100px; /*remover bottom apos colocar o carrossel altomatico das bandeiras*/
+        text-align: center;
     
-}
+    }
+    #confg-h1-prqntsFQ{
+        color: #1B467D;
+        font-size: 64px;
+    }
+    #confg-paragf-prqntsFQ{
+        font-weight: 600;
+        font-size: 32px;
+        
+    }
 
-.alinmt-prgnts-FQ{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-bottom: 150px;
-}
+    .alinmt-prgnts-FQ{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 150px;
+    }
 
-.box-prqntsFQ-1{
-    background-color: #78BCE6;
-    padding: 2% 3%;
-    border-radius: 40px;
-}
-.alinmt-text-sta{
-    display: flex;
-    justify-content: space-between;
-    
-}
-.stl-pergnt-FQ{
-    font-size: 32px;
-    font-family: 'Instrument Sans', sans-serif;
-}
-.stl-rspt-FQ{
-    color: white;
-    font-size: 24px;
-    font-family: 'Instrument Sans', sans-serif;
-    
-}
-p span.material-symbols-outlined{
-    font-size: 45px;
-    cursor: pointer;
-}
-.none{
-    display: none;
+    .box-prqntsFQ-1{
+        background-color: #78BCE6;
+        padding: 2% 3%;
+        border-radius: 40px;
+    }
+    .alinmt-text-sta{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .stl-pergnt-FQ{
+        font-size: 32px;
+        font-family: 'Instrument Sans', sans-serif;
+    }
+    .stl-rspt-FQ{
+        color: white;
+        font-size: 24px;
+        font-family: 'Instrument Sans', sans-serif;
+        
+    }
+    p span.material-symbols-outlined{
+        font-size: 45px;
+        cursor: pointer;
+    }
+    .none{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 360px) and (max-width: 768px) {

@@ -39,7 +39,7 @@
                         <input type="text" placeholder="Nome: " class="modifc-input">
                         <input type="text" placeholder="Email: " class="modifc-input">
                         <input type="text" placeholder="Telef: " class="modifc-input">
-                        <a href="" class="btao-topo">Começar</a>
+                        <a href="Pag-PrimeiroPasso/primeiropasso.html" class="btao-topo">Começar</a>
 
                     </div>
 
@@ -57,6 +57,30 @@
                 <h1 class="font-instrument" id="confg-h1-cursos">Sessão de Cursos</h1>
                 <p class="font-instrument" id="confg-paragf-cursos">"Oferecemos cursos para <span class="cor-azul-destq">diversas</span> linguas!"</p>
             </div>
+
+            <div id="carrloop">
+                <div class="grupo">
+                    <img src="Imagens/bandeira-StdosUnidos 1.png" alt="bandeira eua">
+                    <img src="Imagens/bandeira-Alemanha 1.png" alt="bandeira alemanha">
+                    <img src="Imagens/bandeira-Russia 1.png" alt="bandeira russia">
+                    <img src="Imagens/bandeira-Espanha 1.png" alt="bandeira espanha">
+                    <img src="Imagens/bandeira-Brasil 1.png" alt="bandeira brasil">
+                    <img src="Imagens/bandeira-Italia 1.png" alt="bandeira ilatia">
+                    <img src="Imagens/bandeira-Japao 1.png" alt="bandeira japao">
+                    <img src="Imagens/bandeira-China 1.png" alt="bandeira china">
+                </div>
+                <div aria-hidden="true" class="grupo">
+                    <img src="Imagens/bandeira-StdosUnidos 1.png" alt="bandeira eua">
+                    <img src="Imagens/bandeira-Alemanha 1.png" alt="bandeira alemanha">
+                    <img src="Imagens/bandeira-Russia 1.png" alt="bandeira russia">
+                    <img src="Imagens/bandeira-Espanha 1.png" alt="bandeira espanha">
+                    <img src="Imagens/bandeira-Brasil 1.png" alt="bandeira brasil">
+                    <img src="Imagens/bandeira-Italia 1.png" alt="bandeira ilatia">
+                    <img src="Imagens/bandeira-Japao 1.png" alt="bandeira japao">
+                    <img src="Imagens/bandeira-China 1.png" alt="bandeira china">
+                </div>
+            </div>
+
 
 
 
@@ -218,7 +242,7 @@
                     <h1 id="sobrnos-titlo">Sobre Nós!</h1>
                     <p id="text-sobrnos">“Acreditamos no potencial de nossa metodologia com profissionais capacitados e dispostos
                         a trasformarem sua <span class="cor-azul-destq">comunicação</span>”</p>
-                    <a href="" class="btao-SobrNos">Saiba Mais</a>
+                    <a href="Pag-SobreNos/Pag-SobreNos.html" class="btao-SobrNos">Saiba Mais</a>
 
                 </div>
 
@@ -324,7 +348,7 @@
                     <div class="box-prqntsFQ-1">
                         <div class="alinmt-text-sta">
                             <h2 class="stl-pergnt-FQ">O curso oferece certificado?</h2>
-                            <p><span class="material-symbols-outlined"  onclick="clickAbrir1()">&#xF181;</span></p>
+                            <p><span class="material-symbols-outlined" id="mdç-seta1" onclick="clickAbrir1()">&#xF182;</span></p>
                         </div>
 
                         <div class="text-FQ1" style="display: block;">
@@ -335,7 +359,7 @@
                     <div class="box-prqntsFQ-1">
                         <div class="alinmt-text-sta">
                             <h2 class="stl-pergnt-FQ">Tenho acesso aos professores?</h2>
-                            <p><span class="material-symbols-outlined"  onclick="clickAbrir2()">&#xF181;</span></p>
+                            <p><span class="material-symbols-outlined" id="mdç-seta2" onclick="clickAbrir2()">&#xF181;</span></p>
                         </div>
 
                         <div class="text-FQ2" style="display: none;">
@@ -347,7 +371,7 @@
                     <div class="box-prqntsFQ-1">
                         <div class="alinmt-text-sta">
                             <h2 class="stl-pergnt-FQ">Qual é a duração do curso?</h2>
-                            <p><span class="material-symbols-outlined"  onclick="clickAbrir3()">&#xF181;</span></p>
+                            <p><span class="material-symbols-outlined" id="mdç-seta3" onclick="clickAbrir3()">&#xF181;</span></p>
                         </div>
 
                         <div class="text-FQ3" style="display: none;">
@@ -358,7 +382,7 @@
                     <div class="box-prqntsFQ-1">
                         <div class="alinmt-text-sta">
                             <h2 class="stl-pergnt-FQ">Há opções de parcelamento?</h2>
-                            <p><span class="material-symbols-outlined"  onclick="clickAbrir4()">&#xF181;</span></p>
+                            <p><span class="material-symbols-outlined" id="mdç-seta4" onclick="clickAbrir4()">&#xF181;</span></p>
                         </div>
 
                         <div class="text-FQ4 none">
@@ -789,15 +813,16 @@ da melhor forma e dar continuidade ao seu aprendizado.</p>
     <script src="script.js"></script>
 
     <script>
-        var caixatext1= document.querySelector(".text-FQ1")
-
+        
                 function clickAbrir1(){
-
-            
-                    if (caixatext1.style.display == 'block'){
+                    var caixatext1 = document.querySelector(".text-FQ1")
+                    var img1 = document.querySelector('#mdç-seta1');
+                     if (caixatext1.style.display == 'block'){
                         caixatext1.style.display = 'none';
+                       img1.textContent = "\uF181"; 
                     }else{
                         caixatext1.style.display = 'block';
+                        img1.textContent = "\uF182"; 
                     }
                          
                 }
@@ -805,20 +830,26 @@ da melhor forma e dar continuidade ao seu aprendizado.</p>
                 
                 function clickAbrir2(){
                     var caixatext2 = document.querySelector(".text-FQ2")
+                    var img2 = document.querySelector('#mdç-seta2')
                      if (caixatext2.style.display == 'block'){
                         caixatext2.style.display = 'none';
+                        img2.textContent = "\uF181"; 
                     }else{
                         caixatext2.style.display = 'block';
+                        img2.textContent = "\uF182"; 
                     }
                      
                 }
 
                 function clickAbrir3(){
                     var caixatext3 = document.querySelector(".text-FQ3")
+                    var img3 = document.querySelector('#mdç-seta3')
                      if (caixatext3.style.display == 'block'){
                         caixatext3.style.display = 'none';
+                        img3.textContent = "\uF181"; 
                     }else{
                         caixatext3.style.display = 'block';
+                        img3.textContent = "\uF182"; 
                     }
                      
                 }
@@ -826,13 +857,32 @@ da melhor forma e dar continuidade ao seu aprendizado.</p>
                 
                     function clickAbrir4(){
                     var caixatext4 = document.querySelector(".text-FQ4")
+                    var img4 = document.querySelector('#mdç-seta4')
                      if (caixatext4.style.display == 'block'){
                         caixatext4.style.display = 'none';
+                        img4.textContent = "\uF181"; 
                     }else{
                         caixatext4.style.display = 'block';
+                        img4.textContent = "\uF182"; 
                     }
                      
                 }
+     
+
+
+
+
+
+
+
+
+
+
+                
+                
+
+
+                
     </script>
 
 

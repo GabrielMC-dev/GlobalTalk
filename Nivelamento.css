@@ -1,111 +1,113 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-#mobile{
-    display: none;
-}
-#alinmt-margin-niveis{
-    max-width: 100%;
-    margin: auto;
-}
-#confg-h1-nivelamento{
-    color: #1B467D;
-    font-size: 64px;
-}
-#confg-paragf-nivelamento{
-    font-weight: 600;
-    font-size: 32px;
-}
+@media screen and (min-width: 769px) and (max-width: 2000px) { 
+ * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    #mobile{
+        display: none;
+    }
+    #alinmt-margin-niveis{
+        max-width: 100%;
+        margin: auto;
+    }
+    #confg-h1-nivelamento{
+        color: #1B467D;
+        font-size: 64px;
+    }
+    #confg-paragf-nivelamento{
+        font-weight: 600;
+        font-size: 32px;
+    }
 
-.cmc-topico-niveis{
-    margin-top: 200px;
-    margin-bottom: 100px; /*remover bottom apos colocar o carrossel altomatico das bandeiras*/
-    text-align: center;
-}
-
-
-
-#contnr-alinmt-niveis{
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-}
-
-
-#contnr-img-cursos-basic{
-    background-image: url(Imagens/Img-nivelamento-basic.png);
-    width: 352px;
-    height: 396px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-}
-.item-cursos{
-    font-family: 'Instrument Sans', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 50px;
-    
-}
-.modf-text{
-    font-size: 48px;
-    color: white;
-}
-
-.btao-cursos{
-    font-family: 'Instrument Sans', sans-serif;
-    width: 200px;
-    height: 18%;
-    text-align: center;
-    align-content: center;
-    text-decoration: none;
-    border-radius: 25px;
-    color: rgb(0, 0, 0, 80%);
-    font-size: 32px;
-    font-weight: 400;
-    background-color: rgb(217, 217, 217, 75%);
-    margin-bottom: 50px;
-}
+    .cmc-topico-niveis{
+        margin-top: 200px;
+        margin-bottom: 100px; /*remover bottom apos colocar o carrossel altomatico das bandeiras*/
+        text-align: center;
+    }
 
 
 
-#contnr-img-cursos-intermed{
-    background-image: url(Imagens/Img-nivelamento-intermed.png);
-    width: 352px;
-    height: 396px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-}
-#contnr-img-cursos-avancd{
-    background-image: url(Imagens/Img-nivelamento-avanced.png);
-    width: 352px;
-    height: 396px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-}
+    #contnr-alinmt-niveis{
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+    }
 
-#nivelamento-text{
-    margin-top: 100px;
-    margin-bottom: 150px;
-    display: flex;
-    justify-content: center;
-}
-#saibanveis-text{
-    font-family: 'Instrument Sans', sans-serif;
-    font-size: 48px;
-    font-weight: 400;
-}
-#cliqaq-text{
-    font-family: 'Instrument Sans', sans-serif;
-    font-size: 48px;
-    font-weight: 400;
-    color: #0086FF;
+
+    #contnr-img-cursos-basic{
+        background-image: url(Imagens/Img-nivelamento-basic.png);
+        width: 352px;
+        height: 396px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .item-cursos{
+        font-family: 'Instrument Sans', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 50px;
+        
+    }
+    .modf-text{
+        font-size: 48px;
+        color: white;
+    }
+
+    .btao-cursos{
+        font-family: 'Instrument Sans', sans-serif;
+        width: 200px;
+        height: 18%;
+        text-align: center;
+        align-content: center;
+        text-decoration: none;
+        border-radius: 25px;
+        color: rgb(0, 0, 0, 80%);
+        font-size: 32px;
+        font-weight: 400;
+        background-color: rgb(217, 217, 217, 75%);
+        margin-bottom: 50px;
+    }
+
+
+
+    #contnr-img-cursos-intermed{
+        background-image: url(Imagens/Img-nivelamento-intermed.png);
+        width: 352px;
+        height: 396px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    #contnr-img-cursos-avancd{
+        background-image: url(Imagens/Img-nivelamento-avanced.png);
+        width: 352px;
+        height: 396px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #nivelamento-text{
+        margin-top: 100px;
+        margin-bottom: 150px;
+        display: flex;
+        justify-content: center;
+    }
+    #saibanveis-text{
+        font-family: 'Instrument Sans', sans-serif;
+        font-size: 48px;
+        font-weight: 400;
+    }
+    #cliqaq-text{
+        font-family: 'Instrument Sans', sans-serif;
+        font-size: 48px;
+        font-weight: 400;
+        color: #0086FF;
+    }
 }
 
 @media screen and (min-width: 360px) and (max-width: 768px) {
