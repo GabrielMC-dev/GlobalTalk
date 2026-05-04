@@ -1,0 +1,235 @@
+@media screen and (min-width: 769px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Instrument Sans', sans-serif;
+    }
+    #mobile{
+        display: none;
+    }
+    .alinmt-margin{
+        max-width: 70%;
+        margin: auto;
+    }
+
+    #img-menu{
+        width: 220px;
+
+    }
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0px 3px 2px darkgray;
+        padding: 0% 5%;
+    }
+
+    .links-menu{
+        font-size: 30px;
+        width: 35%;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .link-menu{
+        text-decoration: none;
+        font-family: 'Instrument Sans', sans-serif;
+        color: #1B467D;
+        font-weight: 600;
+    
+    }
+
+    .alimt-sobrenos{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+    }
+    #title-SobreNos{
+        color: #1B467D;
+        font-size: 32px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .modfc{
+        width: 50%;
+        font-size: 32px;
+        text-align: justify;
+    }
+
+    #title-SobreNos2{
+        color: #1B467D;
+        font-size: 32px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        
+    }
+    #title-SobreNos2 h1{
+        width: 76%;
+    }
+    .cor-azul-destq{
+        color: #0086FF;
+    }
+    .modfc2{
+        width: 50%;
+        font-size: 32px;
+        text-align: justify;
+        
+    }
+    .btao-SobrNos{
+        background-color: #FFA500;
+        text-decoration: none;
+        font-family: 'Instrument Sans', sans-serif;
+        text-align: center;
+        padding: 6% 5%;
+        border-radius: 50px;
+        color: black;
+        font-size: 32px;
+        font-weight: 600;
+        width: 40%;
+        
+        
+    }
+    div#btao-SobrNos{
+        margin: 80px 0;
+    }
+
+    /*-----------FOOTER--------------*/
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    #mobile{
+        display: none;
+    }
+    #alinmt-margin-footer{
+        max-width: 70%;
+        margin: auto;
+        color: white; /*Cor dos items do Footer geral!*/
+        font-family: 'Instrument Sans', sans-serif;
+    } 
+    footer{
+        background-color: #93BCE3;
+        width: 100%;
+        padding: 100px 0px;
+        
+    }
+    .text-footer-motvc{
+        font-size: 20px;
+        width: 50%;
+        font-family: 'Instrument Sans', sans-serif;
+        font-weight: 400;
+        align-content: center;
+    }
+    .contnr-topo-footer{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        
+        
+    }
+    .contr-alimnt-descFooter{
+        display: flex;
+        gap: 50px;
+        
+    }
+    .titlo-footer{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .seprc-footer{
+    font-size: 16px;
+    flex-direction: column;
+        
+    }
+    .espço-link{
+        
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .espço-link a{
+        text-decoration: none;
+        color: white;
+    }
+    .alinmt-coopy-img-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+
+    #copyrigt{
+        font-size: 16px;
+        margin-bottom: 12px;
+        
+    }
+    #text-img-footer{
+        text-align: center; 
+    }
+    #text-img-footer img{
+        margin: 12px;
+        margin-bottom: 0px;
+        max-width: 50px;
+    }
+}
+
+@media screen and (min-width: 360px)  and (max-width: 768px) {
+
+    section#desktop {
+        display: none;
+    }
+
+    section#corpo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1030px;
+    }
+
+    #corpo h1 {
+        font-size: 36px;
+        margin: 30px 0;
+        font-weight: bold;
+    }
+
+    #corpo img {
+        max-width: 270px;
+        margin-bottom: 24px;
+    }
+
+    #corpo h2 {
+        color: #1B467D;
+        font-size: 26px;
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 36px;
+    }
+
+    #corpo p {
+        text-align: justify;
+        width: 86%;
+        font-size: 18px;
+    }
+
+    #corpo a {
+        margin-top: 8%;
+        margin-bottom: 14%;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 18px;
+        background-color: #FFA500;
+        width: 160px;
+        height: 54px;
+        border-radius: 40px;
+        text-align: center;
+        align-content: center;  
+    }
+
+}

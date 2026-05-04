@@ -1,4 +1,8 @@
 @media screen and (min-width: 360px) and (max-width: 768px) {
+    section#desktop {
+        display: none;
+    }
+    
     header#hfalso {
         padding: 0 5%;
         background-color: white;
@@ -27,7 +31,7 @@
     }
 
     section#idsec2pp {
-        background: linear-gradient(to top, #ffffff 44%, #E1EEFA 54%, #A0CBF2 100%);
+        background: linear-gradient(to top, #ffffff 24%, #E1EEFA 54%, #A0CBF2 100%);
         height: 290px;
         border-radius: 60px 60px 0 0;
     }
@@ -43,14 +47,14 @@
         display: flex;
         align-items: flex-end;
         justify-content: space-around;
-        height: 212px;
+        height: 170px;
         width: 90%;
         margin: auto;
     }
 
     div#verif > img {
         max-width: 100px;
-        border-radius: 20px;
+        border-radius: 50px 50px 0 0;
     }
 
     div#verif > p {

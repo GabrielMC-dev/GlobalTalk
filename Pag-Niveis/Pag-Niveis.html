@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="primeiropasso.css">
-     <link rel="stylesheet" href="../topo.css">
-     <link rel="stylesheet" href="../Footer.css">
+    <link rel="stylesheet" href="pag-niveis.css">
+    <link rel="stylesheet" href="../Topo.css">
+    <link rel="stylesheet" href="../Footer.css">
+    <link rel="stylesheet" href="../Pag-PrimeiroPasso/Pag-primeiropasso.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-
-    <title>Obrigado!</title>
+    <title>Níveis</title>
 </head>
 <body>
-
+    
     <section id="desktop">
 
     </section>
-    
 
 
 
@@ -27,12 +26,14 @@
 
 
 
-    <section id="mobile">
+
+    <sections id="mobile">
+        
         <!-- INÍCIO HEADER -->
 
         <header class="headercont">
             <div id="head1">
-                <img src="../Imagens/Icons site edited.png" alt="Logo">
+                <a href="../index.html#hfalso"><img src="../Imagens/Icons site edited.png" alt="Logo"></a>
                 <span onclick="menu()" class="material-symbols-outlined" id="menuh">&#xE5D2;</span>
             </div>
             <div id="head2" style="display: none;">
@@ -41,7 +42,7 @@
                     <a href="../Index.html#alaranja" onclick="fechaMenu()">Cursos</a>
                     <a href="../Index.html#bxcarr" onclick="fechaMenu()">Níveis</a>
                     <a href="../Index.html#nikanch" onclick="fechaMenu()">Dúvidas</a>
-                    <a href="../Index.html#footer" id="suporte" onclick="fechaMenu()">Suporte  </a>
+                    <a href="#footer" id="suporte" onclick="fechaMenu()">Suporte  </a>
                 </nav>
             </div>
         </header>
@@ -56,22 +57,33 @@
 
         <!-- FIM HEADER -->
 
-        <!-- INÍCIO TOPO -->
-
-        <section id="sec1pp">
-            <h1>Parabéns!<br>Você deu seu <span class="azuldestaque">primeiro</span> passo!</h1>
-            <img src="../Imagens/mulherPp.png" alt="">
-        </section>
-
-        <!-- FIM TOPO -->
-
         <!-- INÍCIO CORPO -->
 
-        <section id="idsec2pp">
-            <p>Você será notificado sobre a<br>continuação de sua <span class="azuldestaque">matrícula!</span></p>
-            <div id="verif">
-                <img src="../Imagens/imgemailedited.png" alt="">
-                <p>Verifique sua caixa de correio<br>para as proxímas instruções<br>sobre o seu curso</p>
+        <section id="corpo">
+            <div id="bas">
+                <p class="prof">Águas Rasas</p>
+                <h1>Básico</h1>
+                <p class="ps">“Possuímos o melhor material para iniciantes! Contamos com videoaulas, tarefas e testes diários, feitos para a sua evolução!”</p>
+                <a href="">Comece Agora</a>
+            </div>
+            
+            <div id="int">
+                <p class="prof">Águas Médias</p>
+                <h1>Intermediário</h1>
+                <p class="ps">“Possuímos o melhor material para intermediários! Contamos com aulas on-line, conversas básicas com um professor e testes diários, feitos para aprimorar seu conhecimento!”</p>
+                <a href="">Comece Agora</a>
+            </div>
+
+            <div id="ava">
+                <p class="prof">Águas Profundas</p>
+                <h1>Avançado</h1>
+                <p class="ps">“Possuímos o melhor material para avançados! Contamos com conversas com nativos, desafios diários e aprimoramento com professores, feitos para melhorar sua comunicação!”</p>
+                <a href="">Comece Agora</a>
+            </div>
+            <div id="teste">
+                <p>Não sabe o seu <span class="azuldestaque">nível de curso?</span> Faça nosso
+teste de nivelamento!</p>
+                <a href="">Faça o teste</a>
             </div>
         </section>
 
@@ -84,7 +96,7 @@
             <div id="footer">
             <h2 onclick="rodapeFooter1()" id="h21">Empresa</h2>
             <div id="afoot1">
-                <a href="#h3anch" class="texto" onclick="fechaFoot1()">Sobre Nós</a>
+                <a href="../Pag-SobreNos/Pag-SobreNos.html#hfalso" class="texto" onclick="fechaFoot1()">Sobre Nós</a>
                 <a href="" class="texto" onclick="fechaFoot1()">Blog</a>
                 <a href="" class="texto" onclick="fechaFoot1()">Parcerias</a>
                 <a href="" class="texto" onclick="fechaFoot1()">Trabalhe Conosco</a>
@@ -92,20 +104,20 @@
             </div>
             <h2 onclick="rodapeFooter2()" id="h22">Cursos</h2>
             <div id="afoot2">
-                <a href="#alaranja" class="texto" onclick="fechaFoot2()">Inglês</a>
-                <a href="#alaranja" class="texto" onclick="fechaFoot2()">Alemão</a>
-                <a href="#alaranja" class="texto" onclick="fechaFoot2()">Russo</a>
-                <a href="#alaranja" class="texto" onclick="fechaFoot2()">Espanhol</a>
-                <a href="#alaranja" class="texto" onclick="fechaFoot2()">Português</a>
-                <a href="#alaranja" class="texto" onclick="fechaFoot2()">Italiano</a>
-                <a href="#alaranja" class="texto" onclick="fechaFoot2()">Japonês</a>
-                <a href="#alaranja" class="texto" onclick="fechaFoot2()">Chinês</a>
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Inglês</a>
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Alemão</a>
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Russo</a>
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Espanhol</a>
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Português</a>
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Italiano</a>
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Japonês</a>
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Chinês</a>
             </div>
             <h2 onclick="rodapeFooter3()" id="h23">Suporte</h2>
             <div id="afoot3">
-                <a href="#nikanch" class="texto" onclick="fechaFoot3()">Dúvidas</a>
+                <a href="../index.html#nikanch" class="texto" onclick="fechaFoot3()">Dúvidas</a>
                 <a href="" class="texto" onclick="fechaFoot3()">Contato</a>
-                <a href="#asobre" class="texto" onclick="fechaFoot3()">Depoimentos</a>
+                <a href="../index.html#asobre" class="texto" onclick="fechaFoot3()">Depoimentos</a>
                 <a href="" class="texto" onclick="fechaFoot3()">Termos de Uso</a>
                 <a href="" class="texto" onclick="fechaFoot3()">(19) 0000-0000</a>
             </div>
@@ -121,10 +133,9 @@
     
         <!-- FIM FOOTER -->
 
-    </section>
-    
+    </sections>
+
     <script src="../menuh.js"></script>
     <script src="../footer.js"></script>
-
 </body>
 </html>

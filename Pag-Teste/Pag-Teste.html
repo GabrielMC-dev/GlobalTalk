@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Pag-teste.css">
+    <link rel="stylesheet" href="../Topo.css">
+    <link rel="stylesheet" href="../Footer.css">
+    <link rel="stylesheet" href="../Pag-PrimeiroPasso/Pag-primeiropasso.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!-- <link rel="shortcut icon" href="" type="image/x-icon"> -->
+
+    <title>Faça o Teste</title>
+</head>
+<body>
+
+    <section id="desktop">
+
+    </section>
+
+    
+
+
+
+
+
+
+
+
+
+    <section id="mobile">
+        
+        <!-- INÍCIO HEADER -->
+
+        <header class="headercont">
+            <div id="head1">
+                <a href="../index.html#hfalso"><img src="../Imagens/Icons site edited.png" alt="Logo"></a>
+                <span onclick="menu()" class="material-symbols-outlined" id="menuh">&#xE5D2;</span>
+            </div>
+            <div id="head2" style="display: none;">
+                <nav id="nav" style="display: flex;">
+                    <a href="../Index.html#hfalso" id="inicio" onclick="fechaMenu()">Inicio</a>
+                    <a href="../Index.html#alaranja" onclick="fechaMenu()">Cursos</a>
+                    <a href="../Index.html#bxcarr" onclick="fechaMenu()">Níveis</a>
+                    <a href="../Index.html#nikanch" onclick="fechaMenu()">Dúvidas</a>
+                    <a href="#footer" id="suporte" onclick="fechaMenu()">Suporte  </a>
+                </nav>
+            </div>
+        </header>
+
+        <header id="hfalso">
+            <img src="Imagens/Icons site edited.png" alt="Logo">
+            <span onclick="menu()" class="material-symbols-outlined" id="menuh">&#xE5D2;</span>
+        </header>
+
+        
+        <div class="overlay" id="overlay" onclick="fechaMenu()"></div>
+
+        <!-- FIM HEADER -->
+
+        <!-- INÍCIO CORPO1 -->
+
+        <section id="corpo1">
+            <h1 class="azulh1">Fazemos o Teste de <span class="azuldestaque">forma gratuita!</span></h1>
+            <div id="boxcard">
+                    <h1 class="azulh1">Aprenda e Fale com <br><span class="azuldestaque">Confiança!</span></h1>
+                    <input type="text" placeholder="Nome:" id="inputNome">
+                    <input type="text" placeholder="Email:">
+                    <input type="text" placeholder="Telef:">
+                    <a href="" id="alaranja">Comece Agora</a>
+                </div>
+        </section>
+
+        <!-- FIM CORPO1 -->
+        <!-- INÍCIO CORPO2 -->
+
+        <section id="corpo2">
+            <h2>Deixe a gente<br>conhecer melhor <span class="azuldestaque">Você!</span></h2>
+            <p>“O teste avalia seu nível de compreensão sobre o idioma, no qual serão feitas perguntas de dificuldades aleatórias, tudo para prepararmos o melhor material para você!”</p>
+        </section>
+
+        <!-- FIM CORPO2 -->
+         
+        <!-- INÍCIO FOOTER -->
+        
+        <footer id="footer">
+            <h1>“Seu sucesso é a nossa<br>maior conquista!”</h1>
+            <div id="footer">
+            <h2 onclick="rodapeFooter1()" id="h21">Empresa</h2>
+            <div id="afoot1">
+                <a href="../Pag-SobreNos/Pag-SobreNos.html#hfalso" class="texto" onclick="fechaFoot1()">Sobre Nós</a>
+                <a href="" class="texto" onclick="fechaFoot1()">Blog</a>
+                <a href="" class="texto" onclick="fechaFoot1()">Parcerias</a>
+                <a href="" class="texto" onclick="fechaFoot1()">Trabalhe Conosco</a>
+                <a href="" class="texto" onclick="fechaFoot1()">Nossa Equipe</a>
+            </div>
+            <h2 onclick="rodapeFooter2()" id="h22">Cursos</h2>
+            <div id="afoot2">
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Inglês</a>
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Alemão</a>
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Russo</a>
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Espanhol</a>
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Português</a>
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Italiano</a>
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Japonês</a>
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Chinês</a>
+            </div>
+            <h2 onclick="rodapeFooter3()" id="h23">Suporte</h2>
+            <div id="afoot3">
+                <a href="../index.html#nikanch" class="texto" onclick="fechaFoot3()">Dúvidas</a>
+                <a href="" class="texto" onclick="fechaFoot3()">Contato</a>
+                <a href="../index.html#asobre" class="texto" onclick="fechaFoot3()">Depoimentos</a>
+                <a href="" class="texto" onclick="fechaFoot3()">Termos de Uso</a>
+                <a href="" class="texto" onclick="fechaFoot3()">(19) 0000-0000</a>
+            </div>
+            </div>
+            <div id="icons">
+                <a href=""><img src="../Imagens/Instagram.png" alt="Insta"></a>
+                <a href=""><img src="../Imagens/Linkedin.png" alt="Linkedin"></a>
+                <a href=""><img src="../Imagens/Facebook.png" alt="Facebook"></a>
+                <a href=""><img src="../Imagens/Youtube.png" alt="Youtube"></a>    
+            </div>
+            <p>Copyright © 2026 Global Talk. All rights reserved.</p>   
+        </footer>
+    
+        <!-- FIM FOOTER -->
+
+    </section>
+
+    <script src="../menuh.js"></script>
+    <script src="../footer.js"></script>
+</body>
+</html>
