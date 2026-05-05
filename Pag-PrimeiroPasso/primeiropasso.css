@@ -55,17 +55,18 @@ html{
     font-weight: 600;
   
 }
-#img-mulher-tmnh{
-    width: 400px;
-    height: 400px;
+#img-mulher-tmnh {
+    width: 300px;
+    
 }
 
 #title-PrimrPasso{
     color: #1B467D;
-    font-size: 32px;
+    font-size: 20px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 60px;
+
 }
 
 .cor-azul-destq{
@@ -76,22 +77,26 @@ html{
     justify-content: center;
 }
 
-.Topo-color{
-        background: linear-gradient(to top,  #ffffff 0%, #E1EEFA 30%, #A0CBF2 90%);
-        height: 500px;
-        border-radius: 200px 200px  0px  0px;
-        
+.Topo-color {
+        background: linear-gradient(to top, #ffffff 0%, #E1EEFA 30%, #A0CBF2 90%);
+        height: 300px;
+        border-radius: 200px 200px 0px 0px;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 150px;
 }
-#Segnd-title-PrimrPasso{
+
+#Segnd-title-PrimrPasso {
     color: #1B467D;
-    font-size: 32px;
+    font-size: 18px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
-#img-notfc{
-    width: 300px;
-    height: 300px;
+  #img-notfc {
+        height: 200px;
+        border-radius: 100px 100px 0;
 }
+
 .alinmt-img-text-PrimPss{
     
     margin-bottom: 100px;
@@ -100,11 +105,12 @@ html{
     justify-content: center;
     gap: 50px;
 }
-#Text-notifc{
-    font-size: 32px;
-    width: 35%;
-    text-align: center;
+ #Text-notifc{
+        font-size: 20px;
+        width: 35%;
+        text-align: center;
 }
+
 
 
 
