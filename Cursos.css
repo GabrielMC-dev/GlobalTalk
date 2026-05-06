@@ -18,6 +18,8 @@
         margin-bottom: 100px; /*remover bottom apos colocar o carrossel altomatico das bandeiras*/
         text-align: center;
     }
+
+
     #confg-h1-cursos{
         color: #1B467D;
         font-size: 64px;
@@ -29,7 +31,53 @@
 
     .contnr-cursos{
         display: flex;
-        width: 5440px; /*Calculo de 8 x 680*/
+        width: 100%; /*Calculo de 8 x 680*/
+        overflow-x: auto;
+        gap: 1em;
+        scroll-behavior: smooth;
+        position: relative;
+        anchor-name: --carousel;
+        scroll-snap-type: x mandatory;
+        scroll-marker-group: after;
+
+
+    }
+    .contnr-cursos::scroll-marker-group{
+        display: flex;
+        justify-content: center;
+        gap: .5em;
+    }
+
+
+    .contnr-cursos::scroll-button(right), .contnr-cursos::scroll-button(left) {
+        content: '⇒';
+        
+        border: none;
+        background-color: #1B467D;
+        font-size: 3rem;
+        color: white;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        padding-bottom: .1em;
+        cursor: pointer;
+        position: fixed;
+        position-anchor: --carousel;
+        position-area: right center;
+        translate: -50%;
+    }
+    .contnr-cursos::scroll-button(left) {
+        content: '⇐';
+        position-area: left center;
+        translate: 50%;
+
+    }
+    .contnr-cursos::scroll-button(right):disabled, .contnr-cursos::scroll-button(left):disabled{
+        opacity: 0.5;
+        cursor: auto;
+    }
+    .contnr-cursos::-webkit-scrollbar{
+        display: none;
     }
 
     .confg-h2-cursos{
@@ -41,12 +89,13 @@
         background-image: url(Imagens/Img-paises-Brasil.png);
         background-repeat: no-repeat;
         height: 486px;
-        width: 680px;
+        flex: 0 0 680px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
         border-radius: 20px;
+        scroll-snap-align: start;
     }
     .box-intrn-cursos{
         display: flex;
@@ -81,78 +130,85 @@
         background-image: url(Imagens/Img-paises-Alemanha.png);
         background-repeat: no-repeat;
         height: 486px;
-        width: 680px;
+        flex: 0 0 680px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
         border-radius: 20px;
+        scroll-snap-align: start;
     }
     .img-pais-China{
         background-image: url(Imagens/Img-paises-China.png);
         background-repeat: no-repeat;
         height: 486px;
-        width: 680px;
+        flex: 0 0 680px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
         border-radius: 20px;
+        scroll-snap-align: start;
     }
     .img-pais-StdsUnidos{
         background-image: url(Imagens/Img-paises-StdsUnidos.png);
         background-repeat: no-repeat;
         height: 486px;
-        width: 680px;
+        flex: 0 0 680px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
         border-radius: 20px;
+        scroll-snap-align: start;
     }
     .img-pais-Russia{
         background-image: url(Imagens/Img-paises-Russia.png);
         background-repeat: no-repeat;
         height: 486px;
-        width: 680px;
+        flex: 0 0 680px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
         border-radius: 20px;
+        scroll-snap-align: start;
     }
     .img-pais-Italia{
         background-image: url(Imagens/Img-paises-Italia.png);
         background-repeat: no-repeat;
         height: 486px;
-        width: 680px;
+        flex: 0 0 680px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
         border-radius: 20px;
+        scroll-snap-align: start;
     }
     .img-pais-Japao{
         background-image: url(Imagens/Img-paises-Japao.png);
         background-repeat: no-repeat;
         height: 486px;
-        width: 680px;
+        flex: 0 0 680px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
         border-radius: 20px;
+        scroll-snap-align: start;
     }
     .img-pais-Espanha{
         background-image: url(Imagens/Img-paises-Espanha.png);
         background-repeat: no-repeat;
         height: 486px;
-        width: 680px;
+        flex: 0 0 680px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
         border-radius: 20px;
+        scroll-snap-align: start;
     }
     #carrloop {
         margin: 50px auto;

@@ -12,7 +12,7 @@
 html{
     scroll-behavior: smooth;
 }
-.alinmt-margin{
+section.alinmt-margin{
     max-width: 70%;
     margin: auto;
 }
