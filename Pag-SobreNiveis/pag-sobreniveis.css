@@ -1,0 +1,98 @@
+@media screen and (min-width: 360px) and (max-width: 768px) {
+    section#desktop {
+        display: none;
+    }
+
+    section#corposbnvl {
+        margin: 20px 0;
+    }
+
+    section#corposbnvl h1 {
+        text-align: center;
+    }
+
+    section#corposbnvl h2 > span.azuldestaque {
+        text-align: center;
+        font-size: 30px;    
+    }
+
+    div#basico {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div#basico p, div#intermediario p, div#avancado p {
+        width: 50%;
+        height: 180px;
+        text-align: center;
+    }
+    
+    div#basico img {
+        max-width: 50%;
+        height: 100%;
+    }
+
+    div#intermediario {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div#intermediario h2 {
+        margin-top: 40px;
+    }
+
+    div#intermediario img {
+        height: 180px;
+    }
+
+    div#avancado {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    div#avancado > div.boxsbnvl > img {
+        max-height: 150px;
+        align-self: center;
+        width: 170px;
+    }
+
+    div#avancado > div.boxsbnvl > p {
+        align-content: center;
+    }
+
+    div.boxsbnvl {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+    }
+    
+        div#pea {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 80px;
+        }
+
+    div#pea > p {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    div#pea > a {
+        margin-top: 8%;
+        margin-bottom: 8%;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        background-color: #FFA500;
+        width: 160px;
+        height: 54px;
+        border-radius: 40px;
+        text-align: center;
+        align-content: center;  
+    }
+
+}

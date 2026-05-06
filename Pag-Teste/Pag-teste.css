@@ -1,0 +1,45 @@
+@media screen and (min-width: 360px) and (max-width: 768px) {
+    section#desktop {
+        display: none;
+    }
+
+    section#corpo1 {
+        background: linear-gradient(to bottom, #ffffff 0%, #E1EEFA 54%, #A0CBF2 100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    section#corpo1 h1 {
+        margin-top: 30px;
+        font-size: 28px;
+        width: 90%;
+    }
+
+    section#corpo1 div#boxcard {
+        width: 288px;
+        height: 308px;
+        margin: 20px 0;
+    }
+
+    section#corpo2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    section#corpo2 h2 {
+        margin: 10% 0;
+        color: #1B467D;
+        font-size: 26px;
+    }
+
+    section#corpo2 p {
+        width: 90%;
+        font-size: 18px;
+        margin-bottom: 10%;
+    }
+
+}

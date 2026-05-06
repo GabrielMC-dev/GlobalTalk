@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Pag-sobreniveis.css">
+    <link rel="stylesheet" href="../Topo.css">
+    <link rel="stylesheet" href="../Footer.css">
+    <link rel="stylesheet" href="../Pag-PrimeiroPasso/Pag-primeiropasso.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="shortcut icon" href="../Imagens/favicon.png" type="image/x-icon">
+
+    <title>Sobre os Níveis</title>
+</head>
+<body>
+
+    <section id="desktop">
+
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+    <section id="mobile">
+        <!-- INÍCIO HEADER -->
+
+        <header class="headercont">
+            <div id="head1">
+                <a href="../index.html#hfalso"><img src="../Imagens/Icons site edited.png" alt="Logo"></a>
+                <span onclick="menu()" class="material-symbols-outlined" id="menuh">&#xE5D2;</span>
+            </div>
+            <div id="head2" style="display: none;">
+                <nav id="nav" style="display: flex;">
+                    <a href="../Index.html#hfalso" id="inicio" onclick="fechaMenu()">Inicio</a>
+                    <a href="../Index.html#alaranja" onclick="fechaMenu()">Cursos</a>
+                    <a href="../Index.html#bxcarr" onclick="fechaMenu()">Níveis</a>
+                    <a href="../Index.html#nikanch" onclick="fechaMenu()">Dúvidas</a>
+                    <a href="#footer" id="suporte" onclick="fechaMenu()">Suporte  </a>
+                </nav>
+            </div>
+        </header>
+
+        <header id="hfalso">
+            <img src="Imagens/Icons site edited.png" alt="Logo">
+            <span onclick="menu()" class="material-symbols-outlined" id="menuh">&#xE5D2;</span>
+        </header>
+
+        
+        <div class="overlay" id="overlay" onclick="fechaMenu()"></div>
+
+        <!-- FIM HEADER -->
+
+        <!-- INÍCIO CORPO -->
+
+        <section id="corposbnvl">
+            <h1 class="azulh1">Sobre os Níveis!</h1>
+            <div id="basico">
+                <h2><span class="azuldestaque">Básico</span></h2>
+                <div class="boxsbnvl">
+                    <p>O conhecimento<br>Básico é aquele<br>vocabulário simples<br>em que conhecemos<br>poucas palavras e de<br>forma simples.</p>
+                    <img src="../Imagens/imgbass.png" alt="basico">
+                </div>
+            </div>
+            <div id="intermediario">
+                <h2><span class="azuldestaque">Intermediário</span></h2>
+                <div class="boxsbnvl">
+                    <img src="../Imagens/imgintt.png" alt="intermediario">
+                    <p>O conhecimento<br>Intermediário<br>apresenta<br>entendimento de<br>certas conversas<br>simples do dia a dia e<br>conhece palavras<br>variáveis.</p>
+                </div>
+            </div>
+            <div id="avancado">
+                <h2><span class="azuldestaque">Avançado</span></h2>
+                <div  class="boxsbnvl">
+                    <p>O conhecimento<br>Avançado apresenta<br>conversas complexas<br>e entendimento maior<br>em uma conversa<br>entre nativos,<br>possuindo uma boa<br>pronuncia do idioma.</p>
+                    <img src="../Imagens/imgavaa.png" alt="avancado">
+                </div>
+            </div>
+            <div id="pea">
+                <p>Não sabe o seu <span class="azuldestaque">nível de curso?</span><br>Faça nosso teste de nivelamento!</p>
+                <a href="../Pag-Teste/Pag-Teste.html">Faça o Teste</a>
+            </div>
+        </section>
+        
+        <!-- FIM CORPO -->
+
+        <!-- INÍCIO FOOTER -->
+        
+        <footer id="footer">
+            <h1>“Seu sucesso é a nossa<br>maior conquista!”</h1>
+            <div id="footer">
+            <h2 onclick="rodapeFooter1()" id="h21">Empresa</h2>
+            <div id="afoot1">
+                <a href="../Pag-SobreNos/Pag-SobreNos.html#hfalso" class="texto" onclick="fechaFoot1()">Sobre Nós</a>
+                <a href="" class="texto" onclick="fechaFoot1()">Blog</a>
+                <a href="" class="texto" onclick="fechaFoot1()">Parcerias</a>
+                <a href="" class="texto" onclick="fechaFoot1()">Trabalhe Conosco</a>
+                <a href="" class="texto" onclick="fechaFoot1()">Nossa Equipe</a>
+            </div>
+            <h2 onclick="rodapeFooter2()" id="h22">Cursos</h2>
+            <div id="afoot2">
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Inglês</a>
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Alemão</a>
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Russo</a>
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Espanhol</a>
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Português</a>
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Italiano</a>
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Japonês</a>
+                <a href="../index.html#alaranja" class="texto" onclick="fechaFoot2()">Chinês</a>
+            </div>
+            <h2 onclick="rodapeFooter3()" id="h23">Suporte</h2>
+            <div id="afoot3">
+                <a href="../index.html#nikanch" class="texto" onclick="fechaFoot3()">Dúvidas</a>
+                <a href="" class="texto" onclick="fechaFoot3()">Contato</a>
+                <a href="../index.html#asobre" class="texto" onclick="fechaFoot3()">Depoimentos</a>
+                <a href="" class="texto" onclick="fechaFoot3()">Termos de Uso</a>
+                <a href="" class="texto" onclick="fechaFoot3()">(19) 0000-0000</a>
+            </div>
+            </div>
+            <div id="icons">
+                <a href="https://www.instagram.com/global.talk_idiomas/" target="_blank"><img src="../Imagens/Instagram.png" alt="Insta"></a>
+                <a href="https://www.linkedin.com/in/global-talk-3095aa408/?skipRedirect=true" target="_blank"><img src="../Imagens/Linkedin.png" alt="Linkedin"></a>
+                <a href="https://www.facebook.com/profile.php?id=61588938137149" target="_blank"><img src="../Imagens/Facebook.png" alt="Facebook"></a>
+                <a href="https://www.youtube.com/channel/UCVEn9ab_JhQXMR9-6p0LFUg" target="_blank"><img src="../Imagens/Youtube.png" alt="Youtube"></a>    
+            </div>
+            <p>Copyright © 2026 Global Talk. All rights reserved.</p>   
+        </footer>
+    
+        <!-- FIM FOOTER -->
+    </section>
+
+    <script src="../menuh.js"></script>
+    <script src="../footer.js"></script>
+</body>
+</html>

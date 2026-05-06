@@ -1,5 +1,5 @@
 const menuh = document.getElementById("menuh")
-const nav = document.getElementById("nav")
+const nav = document.getElementById("head2")
 const sobrep = document.getElementById("overlay")
 
 function menu() {

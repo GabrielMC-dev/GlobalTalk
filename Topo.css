@@ -16,10 +16,10 @@ html{
     margin: auto;
 }
 
-#img-menu{
-    width: 220px;
+    #img-menu{
+        width: 220px;
 
-}
+    }
 
 .menu-fxo{
     display: flex;
@@ -40,24 +40,24 @@ html{
     box-shadow: 0px 3px 2px darkgray;
 }
 
-.links-menu{
-    font-size: 30px;
-    width: 35%;
-    text-decoration: none;
-    display: flex;
-    justify-content: space-between;
-}
-.link-menu{
-    text-decoration: none;
-    font-family: 'Instrument Sans', sans-serif;
-    color: #1B467D;
-    font-weight: 600;
-    
-}
-.Topo-color{
-    background: linear-gradient(to bottom, #ffffff 0%, #E1EEFA 54%, #A0CBF2 100%);
-    margin-top: 50px;
-}
+    .links-menu{
+        font-size: 30px;
+        width: 35%;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .link-menu{
+        text-decoration: none;
+        font-family: 'Instrument Sans', sans-serif;
+        color: #1B467D;
+        font-weight: 600;
+        
+    }
+    .Topo-color{
+        background: linear-gradient(to bottom, #ffffff 0%, #E1EEFA 54%, #A0CBF2 100%);
+        margin-top: 50px;
+    }
 
 .contnr-topo{
     display: flex;
@@ -91,26 +91,26 @@ html{
     color: #0086FF;
 }
 
-.modifc-input{
-    font-size: 20px;
-    border-radius: 50px;
-    width: 70%;
-    padding: 3% 3%;
-    border: 1px solid #000000;
+    .modifc-input{
+        font-size: 20px;
+        border-radius: 50px;
+        width: 70%;
+        padding: 3% 3%;
+        border: 1px solid #000000;
 
-}
-.btao-topo{
-    background-color: #FFA500;
-    text-decoration: none;
-    font-family: 'Instrument Sans', sans-serif;
-    text-align: center;
-    width: 50%;
-    padding: 3% 5%;
-    border-radius: 50px;
-    color: black;
-    font-size: 24px;
-    font-weight: 600;
-    
+    }
+    .btao-topo{
+        background-color: #FFA500;
+        text-decoration: none;
+        font-family: 'Instrument Sans', sans-serif;
+        text-align: center;
+        width: 50%;
+        padding: 3% 5%;
+        border-radius: 50px;
+        color: black;
+        font-size: 24px;
+        font-weight: 600;
+        
 
 }
 }
@@ -165,10 +165,18 @@ html{
         margin-bottom: 4px;
     }
 
+    #head2 {
+        width: 100%;
+    }
+    
     p.ps {
         font-weight: bold;
         font-size: 18px;
         margin-bottom: 20px;
+    }
+    
+    span.azuldestaque {
+        color: #0086FF;
     }
     
     header.headercont{
@@ -177,7 +185,6 @@ html{
         position: fixed;
         z-index: 10;
         box-shadow: 0px 3px 2px darkgray;
-        padding: 0 5%;
         background-color: white;
         width: 100%;
     }
@@ -197,14 +204,23 @@ html{
         width: 100%;
         display: flex;
         justify-content: space-between;
-        box-shadow: 0px 3px 2px darkgray;
+        align-items: center;
+        padding: 0 3%;
+    }
+
+    #head1 > a{
+        height: 83.44px;
+    }
+
+    #head2 {
+        display: none;
     }
 
     #hfalso {
-        box-shadow: 0px 3px 2px darkgray;
         padding: 0 5%;
         background-color: white;
         width: 100%;
+        height: 100%;
     }
 
     #hfalso img {
@@ -215,7 +231,7 @@ html{
         font-size: 44px;
     }
     
-    div.head2 nav {
+    nav {
         background-color: white;
         margin-top: 5px;
         display: fl;
@@ -223,7 +239,7 @@ html{
         width: 100%;
         text-align: center;
     }
-
+    
     nav a {
         width: 100%;
         text-decoration: none;
@@ -235,11 +251,15 @@ html{
         height: 36px;
         font-weight: bold;
     }
-
-    #suporte {
-        border-bottom: 0;
+    
+    #inicio {
+        border-top: 1px solid black;
     }
-
+    
+    #suporte {
+        border-bottom: 1px solid black;
+    }
+    
     div.overlay {
         background-color: rgba(0, 0, 0, .5);
         width: 100%;
@@ -248,7 +268,7 @@ html{
         z-index: 1;
         display: none;
     }
-
+    
     section#sec1 {
         display: flex;
         justify-content: center;
@@ -274,10 +294,6 @@ html{
         font-size: 23px;
         text-align: center;
         font-weight: bold;
-    }
-
-    span.azuldestaque {
-        color: #0086FF;
     }
 
     div#boxcard > input {
