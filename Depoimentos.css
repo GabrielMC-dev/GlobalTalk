@@ -109,6 +109,14 @@
         overflow: auto;
         scrollbar-width: none;
         scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        scroll-marker-group: after;
+    }
+
+    div.carrsec5::scroll-marker-group {
+        display: flex;
+        justify-content: center;
+        gap: .5em;
     }
 
     div.card {
@@ -124,6 +132,19 @@
         justify-content: space-between;
         scroll-snap-align: center;
         margin: 0 2%;
+    }
+
+    div.card::scroll-marker {
+        content: '';
+        height: 16px;
+        width: 16px;
+        background-color: rgba(0, 132, 255, 0.35);
+        border-radius: 50%;
+        margin-top: 12px;
+    }
+
+    div.card::scroll-marker:target-current {
+        background-color: rgb(0, 132, 255);
     }
 
     div#boxsec5 {

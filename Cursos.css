@@ -50,7 +50,7 @@
 
 
     .contnr-cursos::scroll-button(right), .contnr-cursos::scroll-button(left) {
-        content: '⇒';
+        content: '›';
         
         border: none;
         background-color: #1B467D;
@@ -67,7 +67,7 @@
         translate: -50%;
     }
     .contnr-cursos::scroll-button(left) {
-        content: '⇐';
+        content: '‹';
         position-area: left center;
         translate: 50%;
 
@@ -85,18 +85,24 @@
         font-size: 36px;
         
     }
-    .img-pais-Brasil{
-        background-image: url(Imagens/Img-paises-Brasil.png);
-        background-repeat: no-repeat;
-        height: 486px;
-        flex: 0 0 680px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
-        border-radius: 20px;
-        scroll-snap-align: start;
+
+
+    .img-pais-Brasil::scroll-marker, .img-pais-Alemanha::scroll-marker, .img-pais-China::scroll-marker, .img-pais-StdsUnidos::scroll-marker, .img-pais-Russia::scroll-marker, .img-pais-Italia::scroll-marker, .img-pais-Espanha::scroll-marker, .img-pais-Japao::scroll-marker{
+        margin-top: 50px;
+        content: '';
+        height: 1.5em;
+        width: 1.5em;
+        background-color: #0084ff59;
+        border-radius: 50%;
+
     }
+    .img-pais-Brasil::scroll-marker:target-current, .img-pais-Alemanha::scroll-marker:target-current, .img-pais-China::scroll-marker:target-current, .img-pais-StdsUnidos::scroll-marker:target-current, .img-pais-Russia::scroll-marker:target-current, .img-pais-Italia::scroll-marker:target-current, .img-pais-Espanha::scroll-marker:target-current, .img-pais-Japao::scroll-marker:target-current{
+        background-color: #0084ff;
+
+    }
+
+
+
     .box-intrn-cursos{
         display: flex;
         background-color: rgba(217, 217, 217, 80%);
@@ -123,9 +129,21 @@
         font-size: 20px;
         font-weight: 600;
     }
-
-
-
+    
+    
+    
+    .img-pais-Brasil{
+        background-image: url(Imagens/Img-paises-Brasil.png);
+        background-repeat: no-repeat;
+        height: 486px;
+        flex: 0 0 680px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        border-radius: 20px;
+        scroll-snap-align: start;
+    }
     .img-pais-Alemanha{
         background-image: url(Imagens/Img-paises-Alemanha.png);
         background-repeat: no-repeat;
